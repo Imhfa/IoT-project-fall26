@@ -1,0 +1,884 @@
+>>> %Run -c $EDITOR_CONTENT
+
+MPY: soft reboot
+START: id 10 mode dv node ttl 10 run 3
+NEW neighbor 4
+NEW neighbor 12
+NEW neighbor 0
+NEW neighbor 1
+ROUTE: t 26298 ms | parent 255 -> 1 | hop 255 -> 2 | rssi -65 | first parent
+NEW neighbor 6
+NEW neighbor 3
+NEW neighbor 7
+--- device 10 dv hop 2 parent 1 | adv sent 1 rx 7 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -92.0 age 3 s
+ id 1 hop 1 parent 0 rssi -65 smooth -65.0 age 1 s
+ id 3 hop 2 parent 1 rssi -82 smooth -82.0 age 0 s
+ id 4 hop 255 parent 255 rssi -80 smooth -80.0 age 4 s
+ id 6 hop 2 parent 1 rssi -70 smooth -70.0 age 0 s
+ id 7 hop 2 parent 1 rssi -79 smooth -79.0 age 0 s
+ id 12 hop 255 parent 255 rssi -85 smooth -85.0 age 3 s
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 1 | adv sent 2 rx 13 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -92.0 age 8 s
+ id 1 hop 1 parent 0 rssi -64 smooth -64.7 age 1 s
+ id 3 hop 2 parent 1 rssi -77 smooth -80.5 age 0 s
+ id 4 hop 255 parent 255 rssi -86 smooth -81.8 age 3 s
+ id 6 hop 2 parent 1 rssi -73 smooth -70.9 age 1 s
+ id 7 hop 2 parent 1 rssi -76 smooth -78.1 age 0 s
+ id 12 hop 2 parent 1 rssi -85 smooth -85.0 age 3 s
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 36692 ms | parent 1 -> 6 | hop 2 -> 3 | rssi -71.23 | old parent lost or ineligible
+--- device 10 dv hop 3 parent 6 | adv sent 3 rx 19 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -87 smooth -90.5 age 3 s
+ id 1 hop 255 parent 255 rssi -63 smooth -64.2 age 1 s
+ id 3 hop 2 parent 1 rssi -77 smooth -80.5 age 5 s
+ id 4 hop 3 parent 10 rssi -80 smooth -81.3 age 3 s
+ id 6 hop 2 parent 1 rssi -72 smooth -71.2 age 1 s
+ id 7 hop 3 parent 6 rssi -75 smooth -77.2 age 0 s
+ id 12 hop 2 parent 1 rssi -88 smooth -85.9 age 3 s
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 41953 ms | parent 6 -> 3 | hop 3 -> 3 | rssi -80.5 | shorter route
+ROUTE: t 42182 ms | parent 3 -> 1 | hop 3 -> 3 | rssi -65.633 | stronger RSSI (margin exceeded)
+ROUTE: t 42933 ms | parent 1 -> 3 | hop 3 -> 2 | rssi -81.55 | shorter route
+--- device 10 dv hop 2 parent 3 | adv sent 4 rx 24 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -87 smooth -89.4 age 3 s
+ id 1 hop 2 parent 5 rssi -69 smooth -65.6 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -81.6 age 0 s
+ id 4 hop 3 parent 10 rssi -80 smooth -81.3 age 9 s
+ id 6 hop 3 parent 3 rssi -71 smooth -71.2 age 1 s
+ id 7 hop 3 parent 1 rssi -75 smooth -76.5 age 0 s
+ id 12 hop 2 parent 1 rssi -88 smooth -85.9 age 8 s
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 3 | adv sent 5 rx 28 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -86 smooth -88.4 age 3 s
+ id 1 hop 2 parent 5 rssi -65 smooth -65.4 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -81.6 age 5 s
+ id 4 hop 3 parent 10 rssi -80 smooth -81.3 age 14 s
+ id 6 hop 2 parent 3 rssi -70 smooth -70.8 age 1 s
+ id 7 hop 3 parent 6 rssi -76 smooth -76.4 age 0 s
+ id 12 hop 2 parent 1 rssi -88 smooth -85.9 age 14 s
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 4
+NEW neighbor 4
+EXPIRED neighbor 12
+NEW neighbor 12
+DATA sent: seq 0 to parent 3
+--- device 10 dv hop 2 parent 3 | adv sent 6 rx 34 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -88.6 age 3 s
+ id 1 hop 2 parent 3 rssi -66 smooth -65.6 age 1 s
+ id 3 hop 1 parent 0 rssi -85 smooth -82.6 age 0 s
+ id 4 hop 2 parent 3 rssi -80 smooth -80.0 age 4 s
+ id 6 hop 2 parent 3 rssi -70 smooth -70.6 age 1 s
+ id 7 hop 3 parent 6 rssi -76 smooth -76.4 age 5 s
+ id 12 hop 2 parent 5 rssi -84 smooth -84.0 age 3 s
+ DATA gen 1 sent 1 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 8
+--- device 10 dv hop 2 parent 3 | adv sent 7 rx 40 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -88.7 age 3 s
+ id 1 hop 2 parent 3 rssi -66 smooth -65.6 age 6 s
+ id 3 hop 1 parent 0 rssi -83 smooth -82.7 age 0 s
+ id 4 hop 2 parent 3 rssi -80 smooth -80.0 age 9 s
+ id 6 hop 2 parent 3 rssi -71 smooth -70.7 age 1 s
+ id 7 hop 2 parent 3 rssi -78 smooth -76.9 age 0 s
+ id 8 hop 255 parent 255 rssi -74 smooth -74.0 age 1 s
+ id 12 hop 2 parent 5 rssi -87 smooth -84.9 age 3 s
+ DATA gen 1 sent 1 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 1 to parent 3
+--- device 10 dv hop 2 parent 3 | adv sent 8 rx 47 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -87 smooth -88.2 age 3 s
+ id 1 hop 2 parent 3 rssi -66 smooth -65.7 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -83.1 age 0 s
+ id 4 hop 2 parent 3 rssi -81 smooth -80.3 age 4 s
+ id 6 hop 2 parent 3 rssi -74 smooth -71.7 age 1 s
+ id 7 hop 2 parent 3 rssi -78 smooth -76.9 age 6 s
+ id 8 hop 2 parent 3 rssi -68 smooth -72.2 age 1 s
+ id 12 hop 1 parent 0 rssi -87 smooth -85.5 age 3 s
+ DATA gen 2 sent 2 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 3 | adv sent 9 rx 55 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -88.7 age 3 s
+ id 1 hop 2 parent 3 rssi -67 smooth -66.1 age 1 s
+ id 3 hop 1 parent 0 rssi -74 smooth -80.4 age 0 s
+ id 4 hop 2 parent 3 rssi -80 smooth -80.2 age 4 s
+ id 6 hop 2 parent 3 rssi -71 smooth -71.5 age 1 s
+ id 7 hop 2 parent 3 rssi -75 smooth -76.3 age 0 s
+ id 8 hop 2 parent 3 rssi -66 smooth -70.3 age 1 s
+ id 12 hop 1 parent 0 rssi -87 smooth -86.0 age 3 s
+ DATA gen 2 sent 2 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 2 to parent 3
+--- device 10 dv hop 2 parent 3 | adv sent 10 rx 62 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -88.7 age 8 s
+ id 1 hop 2 parent 3 rssi -70 smooth -67.3 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -81.5 age 0 s
+ id 4 hop 2 parent 3 rssi -82 smooth -80.7 age 4 s
+ id 6 hop 2 parent 3 rssi -72 smooth -71.6 age 1 s
+ id 7 hop 2 parent 3 rssi -78 smooth -76.8 age 0 s
+ id 8 hop 2 parent 3 rssi -64 smooth -68.4 age 1 s
+ id 12 hop 1 parent 0 rssi -87 smooth -86.3 age 3 s
+ DATA gen 3 sent 3 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 79197 ms | parent 3 -> 8 | hop 2 -> 2 | rssi -68.9066 | stronger RSSI (margin exceeded)
+--- device 10 dv hop 2 parent 8 | adv sent 11 rx 68 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -88.7 age 13 s
+ id 1 hop 2 parent 3 rssi -77 smooth -70.2 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -81.5 age 6 s
+ id 4 hop 2 parent 3 rssi -82 smooth -81.1 age 3 s
+ id 6 hop 2 parent 3 rssi -71 smooth -71.4 age 1 s
+ id 7 hop 2 parent 8 rssi -75 smooth -76.3 age 0 s
+ id 8 hop 1 parent 0 rssi -70 smooth -68.9 age 1 s
+ id 12 hop 1 parent 0 rssi -86 smooth -86.2 age 3 s
+ DATA gen 3 sent 3 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 0
+NEW neighbor 0
+DATA sent: seq 3 to parent 8
+--- device 10 dv hop 2 parent 8 | adv sent 12 rx 76 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.0 age 3 s
+ id 1 hop 2 parent 8 rssi -66 smooth -68.9 age 1 s
+ id 3 hop 2 parent 8 rssi -82 smooth -81.6 age 0 s
+ id 4 hop 2 parent 8 rssi -83 smooth -81.7 age 3 s
+ id 6 hop 2 parent 8 rssi -71 smooth -71.3 age 1 s
+ id 7 hop 2 parent 8 rssi -75 smooth -75.9 age 0 s
+ id 8 hop 1 parent 0 rssi -65 smooth -67.7 age 1 s
+ id 12 hop 1 parent 0 rssi -86 smooth -86.1 age 3 s
+ DATA gen 4 sent 4 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 89653 ms | parent 8 -> 12 | hop 2 -> 2 | rssi -84.895932 | old parent lost or ineligible
+--- device 10 dv hop 2 parent 12 | adv sent 13 rx 84 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -88 smooth -90.1 age 3 s
+ id 1 hop 2 parent 12 rssi -64 smooth -67.5 age 1 s
+ id 3 hop 2 parent 12 rssi -82 smooth -81.7 age 0 s
+ id 4 hop 2 parent 8 rssi -81 smooth -81.5 age 3 s
+ id 6 hop 2 parent 8 rssi -73 smooth -71.8 age 1 s
+ id 7 hop 2 parent 12 rssi -76 smooth -75.9 age 0 s
+ id 8 hop 255 parent 255 rssi -67 smooth -67.5 age 1 s
+ id 12 hop 1 parent 0 rssi -82 smooth -84.9 age 3 s
+ DATA gen 4 sent 4 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 93036 ms | parent 12 -> 1 | hop 2 -> 3 | rssi -67.45477 | old parent lost or ineligible
+DATA sent: seq 4 to parent 1
+--- device 10 dv hop 3 parent 1 | adv sent 14 rx 91 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -88 smooth -90.1 age 8 s
+ id 1 hop 2 parent 12 rssi -75 smooth -69.7 age 1 s
+ id 3 hop 2 parent 12 rssi -82 smooth -81.8 age 0 s
+ id 4 hop 2 parent 12 rssi -79 smooth -80.7 age 3 s
+ id 6 hop 2 parent 5 rssi -72 smooth -71.9 age 1 s
+ id 7 hop 2 parent 12 rssi -76 smooth -75.9 age 0 s
+ id 8 hop 3 parent 1 rssi -67 smooth -67.4 age 1 s
+ id 12 hop 1 parent 0 rssi -86 smooth -85.2 age 3 s
+ DATA gen 5 sent 5 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 1 | adv sent 15 rx 98 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -90.7 age 3 s
+ id 1 hop 2 parent 12 rssi -73 smooth -70.7 age 1 s
+ id 3 hop 2 parent 12 rssi -82 smooth -81.8 age 5 s
+ id 4 hop 2 parent 12 rssi -81 smooth -80.8 age 4 s
+ id 6 hop 2 parent 5 rssi -71 smooth -71.6 age 1 s
+ id 7 hop 2 parent 12 rssi -78 smooth -76.6 age 0 s
+ id 8 hop 3 parent 1 rssi -66 smooth -67.0 age 1 s
+ id 12 hop 1 parent 0 rssi -86 smooth -85.5 age 3 s
+ DATA gen 5 sent 5 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 105397 ms | parent 1 -> 8 | hop 3 -> 3 | rssi -66.66638 | stronger RSSI (margin exceeded)
+DATA sent: seq 5 to parent 8
+ROUTE: t 106463 ms | parent 8 -> 3 | hop 3 -> 2 | rssi -81.56971 | shorter route
+--- device 10 dv hop 2 parent 3 | adv sent 16 rx 106 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.5 age 3 s
+ id 1 hop 2 parent 3 rssi -77 smooth -72.6 age 1 s
+ id 3 hop 1 parent 0 rssi -81 smooth -81.6 age 0 s
+ id 4 hop 2 parent 12 rssi -81 smooth -80.9 age 4 s
+ id 6 hop 2 parent 12 rssi -71 smooth -71.4 age 1 s
+ id 7 hop 2 parent 3 rssi -76 smooth -76.4 age 0 s
+ id 8 hop 2 parent 3 rssi -66 smooth -66.7 age 1 s
+ id 12 hop 1 parent 0 rssi -86 smooth -85.6 age 3 s
+ DATA gen 6 sent 6 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 3 | adv sent 17 rx 112 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.5 age 8 s
+ id 1 hop 2 parent 3 rssi -79 smooth -74.5 age 1 s
+ id 3 hop 1 parent 0 rssi -83 smooth -82.0 age 0 s
+ id 4 hop 2 parent 12 rssi -81 smooth -80.9 age 9 s
+ id 6 hop 2 parent 12 rssi -75 smooth -72.5 age 1 s
+ id 7 hop 2 parent 3 rssi -76 smooth -76.3 age 0 s
+ id 8 hop 2 parent 3 rssi -63 smooth -65.6 age 1 s
+ id 12 hop 1 parent 0 rssi -87 smooth -86.0 age 3 s
+ DATA gen 6 sent 6 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 6 to parent 3
+--- device 10 dv hop 2 parent 3 | adv sent 18 rx 120 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -91.2 age 3 s
+ id 1 hop 2 parent 3 rssi -77 smooth -75.3 age 1 s
+ id 3 hop 1 parent 0 rssi -81 smooth -81.7 age 0 s
+ id 4 hop 2 parent 3 rssi -78 smooth -80.0 age 4 s
+ id 6 hop 2 parent 3 rssi -73 smooth -72.6 age 1 s
+ id 7 hop 2 parent 3 rssi -72 smooth -75.0 age 0 s
+ id 8 hop 2 parent 3 rssi -70 smooth -66.9 age 1 s
+ id 12 hop 1 parent 0 rssi -88 smooth -86.6 age 3 s
+ DATA gen 7 sent 7 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 3 | adv sent 20 rx 126 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -90.6 age 3 s
+ id 1 hop 2 parent 3 rssi -70 smooth -73.7 age 1 s
+ id 3 hop 1 parent 0 rssi -83 smooth -82.1 age 0 s
+ id 4 hop 2 parent 3 rssi -78 smooth -80.0 age 10 s
+ id 6 hop 2 parent 3 rssi -74 smooth -73.1 age 1 s
+ id 7 hop 2 parent 3 rssi -73 smooth -74.4 age 0 s
+ id 8 hop 2 parent 3 rssi -68 smooth -67.2 age 1 s
+ id 12 hop 1 parent 0 rssi -88 smooth -86.6 age 8 s
+ DATA gen 7 sent 7 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 7 to parent 3
+ROUTE: t 127352 ms | parent 3 -> 8 | hop 2 -> 3 | rssi -66.8593 | stronger RSSI (margin exceeded)
+--- device 10 dv hop 3 parent 8 | adv sent 21 rx 134 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.4 age 3 s
+ id 1 hop 2 parent 3 rssi -72 smooth -73.2 age 1 s
+ id 3 hop 2 parent 12 rssi -81 smooth -81.8 age 0 s
+ id 4 hop 2 parent 3 rssi -81 smooth -80.3 age 4 s
+ id 6 hop 2 parent 3 rssi -74 smooth -73.3 age 1 s
+ id 7 hop 2 parent 12 rssi -76 smooth -74.9 age 0 s
+ id 8 hop 2 parent 3 rssi -66 smooth -66.9 age 0 s
+ id 12 hop 1 parent 0 rssi -86 smooth -86.4 age 3 s
+ DATA gen 8 sent 8 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 132229 ms | parent 8 -> 7 | hop 3 -> 3 | rssi -74.87628 | shorter route
+--- device 10 dv hop 3 parent 7 | adv sent 21 rx 142 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -90.9 age 3 s
+ id 1 hop 3 parent 8 rssi -72 smooth -72.8 age 1 s
+ id 3 hop 2 parent 12 rssi -90 smooth -84.2 age 0 s
+ id 4 hop 2 parent 3 rssi -80 smooth -80.2 age 4 s
+ id 6 hop 3 parent 7 rssi -74 smooth -73.5 age 1 s
+ id 7 hop 2 parent 12 rssi -75 smooth -74.9 age 0 s
+ id 8 hop 3 parent 7 rssi -65 smooth -66.3 age 0 s
+ id 12 hop 1 parent 0 rssi -87 smooth -86.6 age 3 s
+ DATA gen 8 sent 8 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 8 to parent 7
+ROUTE: t 137881 ms | parent 7 -> 3 | hop 3 -> 2 | rssi -83.86366 | shorter route
+--- device 10 dv hop 2 parent 3 | adv sent 22 rx 150 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -90.3 age 2 s
+ id 1 hop 3 parent 7 rssi -73 smooth -72.9 age 1 s
+ id 3 hop 1 parent 0 rssi -83 smooth -83.9 age 0 s
+ id 4 hop 3 parent 7 rssi -79 smooth -79.9 age 3 s
+ id 6 hop 3 parent 7 rssi -74 smooth -73.7 age 1 s
+ id 7 hop 2 parent 3 rssi -76 smooth -75.2 age 0 s
+ id 8 hop 3 parent 7 rssi -66 smooth -66.2 age 0 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.4 age 3 s
+ DATA gen 9 sent 9 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 3 | adv sent 24 rx 158 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -90.5 age 2 s
+ id 1 hop 2 parent 3 rssi -70 smooth -72.0 age 1 s
+ id 3 hop 1 parent 0 rssi -84 smooth -83.9 age 0 s
+ id 4 hop 2 parent 3 rssi -82 smooth -80.5 age 3 s
+ id 6 hop 2 parent 3 rssi -72 smooth -73.2 age 1 s
+ id 7 hop 2 parent 3 rssi -74 smooth -74.9 age 0 s
+ id 8 hop 2 parent 3 rssi -62 smooth -64.9 age 1 s
+ id 12 hop 2 parent 5 rssi -88 smooth -86.9 age 3 s
+ DATA gen 9 sent 9 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 9 to parent 3
+ROUTE: t 148463 ms | parent 3 -> 8 | hop 2 -> 3 | rssi -66.16342 | shorter route
+--- device 10 dv hop 3 parent 8 | adv sent 25 rx 165 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -90.7 age 2 s
+ id 1 hop 2 parent 3 rssi -76 smooth -73.2 age 1 s
+ id 3 hop 3 parent 12 rssi -78 smooth -82.1 age 0 s
+ id 4 hop 2 parent 3 rssi -81 smooth -80.6 age 3 s
+ id 6 hop 2 parent 3 rssi -86 smooth -77.0 age 2 s
+ id 7 hop 2 parent 3 rssi -76 smooth -75.2 age 0 s
+ id 8 hop 2 parent 3 rssi -69 smooth -66.2 age 1 s
+ id 12 hop 2 parent 5 rssi -88 smooth -86.9 age 8 s
+ DATA gen 10 sent 10 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 152954 ms | parent 8 -> 1 | hop 3 -> 3 | rssi -73.2097 | shorter route
+--- device 10 dv hop 3 parent 1 | adv sent 25 rx 170 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -90.7 age 7 s
+ id 1 hop 2 parent 3 rssi -76 smooth -73.2 age 6 s
+ id 3 hop 3 parent 12 rssi -78 smooth -82.1 age 5 s
+ id 4 hop 3 parent 8 rssi -85 smooth -82.0 age 3 s
+ id 6 hop 3 parent 7 rssi -76 smooth -76.7 age 1 s
+ id 7 hop 3 parent 12 rssi -76 smooth -75.4 age 0 s
+ id 8 hop 3 parent 7 rssi -67 smooth -66.4 age 1 s
+ id 12 hop 2 parent 5 rssi -89 smooth -87.5 age 2 s
+ DATA gen 10 sent 10 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 157932 ms | parent 1 -> 8 | hop 3 -> 4 | rssi -66.4144 | shorter route
+DATA sent: seq 10 to parent 8
+ROUTE: t 158359 ms | parent 8 -> 7 | hop 4 -> 4 | rssi -75.44511 | shorter route
+--- device 10 dv hop 4 parent 7 | adv sent 26 rx 177 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -90.2 age 2 s
+ id 1 hop 4 parent 7 rssi -76 smooth -74.0 age 1 s
+ id 3 hop 3 parent 12 rssi -78 smooth -82.1 age 10 s
+ id 4 hop 4 parent 8 rssi -85 smooth -82.9 age 3 s
+ id 6 hop 4 parent 7 rssi -73 smooth -75.6 age 1 s
+ id 7 hop 3 parent 12 rssi -79 smooth -76.5 age 0 s
+ id 8 hop 4 parent 7 rssi -64 smooth -65.7 age 0 s
+ id 12 hop 2 parent 5 rssi -88 smooth -87.7 age 2 s
+ DATA gen 11 sent 11 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 4 parent 7 | adv sent 27 rx 183 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -90.2 age 7 s
+ id 1 hop 4 parent 7 rssi -78 smooth -75.2 age 1 s
+ id 3 hop 3 parent 12 rssi -79 smooth -81.2 age 5 s
+ id 4 hop 4 parent 7 rssi -84 smooth -83.2 age 3 s
+ id 6 hop 4 parent 7 rssi -76 smooth -75.7 age 2 s
+ id 7 hop 3 parent 12 rssi -78 smooth -77.0 age 0 s
+ id 8 hop 4 parent 7 rssi -73 smooth -67.9 age 0 s
+ id 12 hop 2 parent 5 rssi -88 smooth -87.7 age 8 s
+ DATA gen 11 sent 11 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 168593 ms | parent 7 -> 1 | hop 4 -> 2 | rssi -73.66293 | shorter route
+NEW neighbor 5
+DATA sent: seq 11 to parent 1
+--- device 10 dv hop 2 parent 1 | adv sent 28 rx 190 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -89 smooth -90.2 age 13 s
+ id 1 hop 1 parent 0 rssi -70 smooth -73.7 age 1 s
+ id 3 hop 3 parent 12 rssi -77 smooth -79.3 age 0 s
+ id 4 hop 4 parent 7 rssi -84 smooth -83.2 age 8 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.0 age 1 s
+ id 6 hop 4 parent 7 rssi -74 smooth -75.2 age 2 s
+ id 7 hop 2 parent 1 rssi -74 smooth -76.1 age 0 s
+ id 8 hop 2 parent 1 rssi -69 smooth -68.2 age 0 s
+ id 12 hop 2 parent 5 rssi -88 smooth -87.7 age 13 s
+ DATA gen 12 sent 12 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 0
+EXPIRED neighbor 12
+NEW neighbor 0
+ROUTE: t 174051 ms | parent 1 -> 8 | hop 2 -> 3 | rssi -68.21814 | old parent lost or ineligible
+ROUTE: t 174753 ms | parent 8 -> 6 | hop 3 -> 3 | rssi -75.14293 | shorter route
+--- device 10 dv hop 3 parent 6 | adv sent 29 rx 196 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.0 age 1 s
+ id 1 hop 255 parent 255 rssi -73 smooth -73.5 age 0 s
+ id 3 hop 3 parent 12 rssi -77 smooth -79.3 age 5 s
+ id 4 hop 2 parent 1 rssi -84 smooth -83.4 age 3 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.0 age 6 s
+ id 6 hop 2 parent 1 rssi -75 smooth -75.1 age 2 s
+ id 7 hop 3 parent 6 rssi -76 smooth -76.0 age 0 s
+ id 8 hop 3 parent 6 rssi -68 smooth -68.2 age 0 s
+ DATA gen 12 sent 12 noroute 0 read_fail 0 | fwd sent 0 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 12
+ROUTE: t 178160 ms | parent 6 -> 4 | hop 3 -> 3 | rssi -83.444752 | shorter route
+DATA sent: seq 12 to parent 4
+--- device 10 dv hop 3 parent 4 | adv sent 30 rx 202 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.0 age 6 s
+ id 1 hop 4 parent 8 rssi -73 smooth -73.3 age 0 s
+ id 3 hop 3 parent 12 rssi -78 smooth -78.9 age 4 s
+ id 4 hop 2 parent 1 rssi -84 smooth -83.4 age 8 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.0 age 11 s
+ id 6 hop 4 parent 3 rssi -76 smooth -75.4 age 1 s
+ id 7 hop 3 parent 4 rssi -77 smooth -76.3 age 0 s
+ id 8 hop 3 parent 10 rssi -73 smooth -69.6 age 0 s
+ id 12 hop 2 parent 1 rssi -87 smooth -87.0 age 2 s
+ DATA gen 13 sent 13 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 182027 ms | parent 4 -> 7 | hop 3 -> 4 | rssi -76.334624 | stronger RSSI (margin exceeded)
+EXPIRED neighbor 5
+ROUTE: t 184699 ms | parent 7 -> 1 | hop 4 -> 4 | rssi -70.827384 | stronger RSSI (margin exceeded)
+--- device 10 dv hop 4 parent 1 | adv sent 31 rx 208 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.0 age 12 s
+ id 1 hop 3 parent 12 rssi -65 smooth -70.8 age 0 s
+ id 3 hop 3 parent 12 rssi -77 smooth -78.3 age 4 s
+ id 4 hop 3 parent 12 rssi -86 smooth -84.2 age 3 s
+ id 6 hop 4 parent 7 rssi -76 smooth -75.6 age 1 s
+ id 7 hop 3 parent 12 rssi -74 smooth -75.6 age 0 s
+ id 8 hop 3 parent 10 rssi -73 smooth -69.6 age 5 s
+ id 12 hop 2 parent 5 rssi -87 smooth -87.0 age 1 s
+ DATA gen 13 sent 13 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 189881 ms | parent 1 -> 1 | hop 4 -> 2 | rssi -69.37917 | kept current parent
+DATA sent: seq 13 to parent 1
+--- device 10 dv hop 2 parent 1 | adv sent 32 rx 214 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -90.9 age 1 s
+ id 1 hop 1 parent 0 rssi -66 smooth -69.4 age 0 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.9 age 4 s
+ id 4 hop 3 parent 12 rssi -86 smooth -84.2 age 8 s
+ id 6 hop 4 parent 7 rssi -76 smooth -75.6 age 6 s
+ id 7 hop 2 parent 1 rssi -75 smooth -75.4 age 0 s
+ id 8 hop 4 parent 7 rssi -66 smooth -68.5 age 5 s
+ id 12 hop 2 parent 5 rssi -88 smooth -87.3 age 1 s
+ DATA gen 14 sent 14 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 5
+ROUTE: t 195321 ms | parent 1 -> 8 | hop 2 -> 3 | rssi -67.46738 | shorter route
+--- device 10 dv hop 3 parent 8 | adv sent 33 rx 221 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -90.9 age 6 s
+ id 1 hop 4 parent 3 rssi -69 smooth -69.3 age 0 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.9 age 4 s
+ id 4 hop 3 parent 12 rssi -86 smooth -84.2 age 13 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 1 s
+ id 6 hop 2 parent 1 rssi -75 smooth -75.4 age 1 s
+ id 7 hop 2 parent 1 rssi -75 smooth -75.4 age 5 s
+ id 8 hop 2 parent 5 rssi -69 smooth -67.9 age 0 s
+ id 12 hop 2 parent 1 rssi -87 smooth -87.2 age 1 s
+ DATA gen 14 sent 14 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 4
+NEW neighbor 4
+--- device 10 dv hop 3 parent 8 | adv sent 34 rx 226 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -90.9 age 12 s
+ id 1 hop 3 parent 8 rssi -70 smooth -69.5 age 0 s
+ id 3 hop 3 parent 12 rssi -78 smooth -78.0 age 4 s
+ id 4 hop 3 parent 8 rssi -86 smooth -86.0 age 2 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 6 s
+ id 6 hop 2 parent 1 rssi -75 smooth -75.4 age 6 s
+ id 7 hop 3 parent 8 rssi -78 smooth -76.2 age 0 s
+ id 8 hop 2 parent 5 rssi -69 smooth -67.9 age 5 s
+ id 12 hop 3 parent 6 rssi -88 smooth -87.4 age 1 s
+ DATA gen 14 sent 14 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 14 to parent 8
+EXPIRED neighbor 0
+--- device 10 dv hop 3 parent 8 | adv sent 35 rx 231 dropped 0 ---
+ id 1 hop 3 parent 8 rssi -72 smooth -70.2 age 0 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.7 age 4 s
+ id 4 hop 3 parent 8 rssi -86 smooth -86.0 age 2 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 11 s
+ id 6 hop 3 parent 8 rssi -72 smooth -74.4 age 1 s
+ id 7 hop 3 parent 8 rssi -78 smooth -76.2 age 5 s
+ id 8 hop 2 parent 5 rssi -67 smooth -67.6 age 5 s
+ id 12 hop 3 parent 6 rssi -88 smooth -87.4 age 6 s
+ DATA gen 15 sent 15 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 5
+NEW neighbor 5
+--- device 10 dv hop 3 parent 8 | adv sent 36 rx 240 dropped 0 ---
+ id 1 hop 3 parent 8 rssi -67 smooth -69.3 age 0 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.5 age 3 s
+ id 4 hop 3 parent 8 rssi -84 smooth -85.4 age 2 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 0 s
+ id 6 hop 3 parent 8 rssi -72 smooth -73.7 age 1 s
+ id 7 hop 3 parent 8 rssi -77 smooth -76.4 age 5 s
+ id 8 hop 2 parent 5 rssi -68 smooth -67.8 age 0 s
+ id 12 hop 2 parent 5 rssi -87 smooth -87.3 age 1 s
+ DATA gen 15 sent 15 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 15 to parent 8
+ROUTE: t 216258 ms | parent 8 -> 1 | hop 3 -> 2 | rssi -69.18763 | shorter route
+--- device 10 dv hop 2 parent 1 | adv sent 37 rx 245 dropped 0 ---
+ id 1 hop 1 parent 0 rssi -69 smooth -69.2 age 0 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.6 age 3 s
+ id 4 hop 3 parent 8 rssi -84 smooth -85.0 age 2 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 5 s
+ id 6 hop 3 parent 8 rssi -75 smooth -74.1 age 0 s
+ id 7 hop 3 parent 8 rssi -77 smooth -76.4 age 10 s
+ id 8 hop 2 parent 5 rssi -68 smooth -67.8 age 5 s
+ id 12 hop 2 parent 5 rssi -85 smooth -86.6 age 1 s
+ DATA gen 16 sent 16 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 1 | adv sent 38 rx 252 dropped 0 ---
+ id 1 hop 1 parent 0 rssi -66 smooth -68.2 age 0 s
+ id 3 hop 3 parent 12 rssi -76 smooth -77.1 age 3 s
+ id 4 hop 2 parent 1 rssi -85 smooth -85.0 age 2 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 10 s
+ id 6 hop 2 parent 1 rssi -76 smooth -74.6 age 0 s
+ id 7 hop 2 parent 1 rssi -76 smooth -76.3 age 4 s
+ id 8 hop 2 parent 1 rssi -66 smooth -67.3 age 4 s
+ id 12 hop 2 parent 1 rssi -85 smooth -86.1 age 1 s
+ DATA gen 16 sent 16 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 16 to parent 1
+EXPIRED neighbor 5
+--- device 10 dv hop 2 parent 1 | adv sent 39 rx 257 dropped 0 ---
+ id 1 hop 1 parent 0 rssi -66 smooth -68.2 age 5 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.4 age 3 s
+ id 4 hop 2 parent 1 rssi -85 smooth -85.0 age 7 s
+ id 6 hop 2 parent 1 rssi -75 smooth -74.8 age 0 s
+ id 7 hop 2 parent 1 rssi -78 smooth -76.8 age 4 s
+ id 8 hop 2 parent 1 rssi -66 smooth -66.9 age 4 s
+ id 12 hop 2 parent 1 rssi -86 smooth -86.1 age 1 s
+ DATA gen 17 sent 17 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 226718 ms | parent 1 -> 8 | hop 2 -> 3 | rssi -66.89573 | shorter route
+ROUTE: t 226968 ms | parent 8 -> 6 | hop 3 -> 3 | rssi -74.75345 | shorter route
+ROUTE: t 231065 ms | parent 6 -> 8 | hop 3 -> 4 | rssi -67.52701 | stronger RSSI (margin exceeded)
+--- device 10 dv hop 4 parent 8 | adv sent 40 rx 265 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -66 smooth -67.9 age 0 s
+ id 3 hop 3 parent 12 rssi -76 smooth -77.0 age 3 s
+ id 4 hop 3 parent 6 rssi -85 smooth -85.0 age 2 s
+ id 6 hop 3 parent 12 rssi -76 smooth -75.1 age 0 s
+ id 7 hop 3 parent 6 rssi -79 smooth -77.5 age 4 s
+ id 8 hop 3 parent 6 rssi -69 smooth -67.5 age 4 s
+ id 12 hop 2 parent 5 rssi -85 smooth -85.8 age 1 s
+ DATA gen 17 sent 17 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 232332 ms | parent 8 -> 1 | hop 4 -> 4 | rssi -67.93335 | shorter route
+DATA sent: seq 17 to parent 1
+--- device 10 dv hop 4 parent 1 | adv sent 41 rx 271 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -70 smooth -68.6 age 0 s
+ id 3 hop 3 parent 12 rssi -76 smooth -77.0 age 8 s
+ id 4 hop 3 parent 12 rssi -85 smooth -85.0 age 2 s
+ id 6 hop 3 parent 12 rssi -76 smooth -75.4 age 0 s
+ id 7 hop 3 parent 12 rssi -80 smooth -78.2 age 4 s
+ id 8 hop 4 parent 6 rssi -68 smooth -67.7 age 4 s
+ id 12 hop 2 parent 5 rssi -86 smooth -85.8 age 1 s
+ DATA gen 18 sent 18 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 4 parent 1 | adv sent 42 rx 276 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -70 smooth -68.6 age 5 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.3 age 3 s
+ id 4 hop 3 parent 12 rssi -85 smooth -85.0 age 7 s
+ id 6 hop 4 parent 7 rssi -75 smooth -75.3 age 0 s
+ id 7 hop 3 parent 12 rssi -79 smooth -78.5 age 4 s
+ id 8 hop 4 parent 6 rssi -68 smooth -67.8 age 4 s
+ id 12 hop 2 parent 5 rssi -87 smooth -86.2 age 1 s
+ DATA gen 18 sent 18 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 18 to parent 1
+--- device 10 dv hop 4 parent 1 | adv sent 43 rx 282 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -65 smooth -67.5 age 5 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.2 age 3 s
+ id 4 hop 3 parent 12 rssi -84 smooth -84.7 age 1 s
+ id 6 hop 3 parent 12 rssi -75 smooth -75.2 age 0 s
+ id 7 hop 3 parent 12 rssi -77 smooth -78.0 age 4 s
+ id 8 hop 4 parent 7 rssi -66 smooth -67.2 age 4 s
+ id 12 hop 2 parent 5 rssi -87 smooth -86.2 age 6 s
+ DATA gen 19 sent 19 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 0
+--- device 10 dv hop 4 parent 1 | adv sent 44 rx 288 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -90 smooth -90.0 age 1 s
+ id 1 hop 3 parent 12 rssi -69 smooth -67.9 age 4 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.1 age 3 s
+ id 4 hop 3 parent 12 rssi -84 smooth -84.7 age 7 s
+ id 6 hop 3 parent 12 rssi -75 smooth -75.2 age 5 s
+ id 7 hop 3 parent 12 rssi -77 smooth -77.7 age 4 s
+ id 8 hop 4 parent 7 rssi -70 smooth -68.1 age 4 s
+ id 12 hop 2 parent 5 rssi -87 smooth -86.4 age 0 s
+ DATA gen 19 sent 19 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 252991 ms | parent 1 -> 1 | hop 4 -> 2 | rssi -67.65879 | kept current parent
+DATA sent: seq 19 to parent 1
+NEW neighbor 5
+--- device 10 dv hop 2 parent 1 | adv sent 45 rx 296 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -90.6 age 0 s
+ id 1 hop 1 parent 0 rssi -67 smooth -67.7 age 4 s
+ id 3 hop 3 parent 12 rssi -76 smooth -76.8 age 3 s
+ id 4 hop 2 parent 1 rssi -87 smooth -85.4 age 1 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 0 s
+ id 6 hop 3 parent 12 rssi -75 smooth -75.2 age 10 s
+ id 7 hop 2 parent 1 rssi -77 smooth -77.5 age 4 s
+ id 8 hop 2 parent 1 rssi -65 smooth -67.1 age 4 s
+ id 12 hop 2 parent 1 rssi -86 smooth -86.3 age 0 s
+ DATA gen 20 sent 20 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 258274 ms | parent 1 -> 1 | hop 2 -> 3 | rssi -66.86115 | kept current parent
+EXPIRED neighbor 6
+--- device 10 dv hop 3 parent 1 | adv sent 46 rx 302 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -90.6 age 5 s
+ id 1 hop 2 parent 5 rssi -65 smooth -66.9 age 4 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.2 age 2 s
+ id 4 hop 3 parent 8 rssi -87 smooth -85.9 age 1 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 5 s
+ id 7 hop 2 parent 1 rssi -76 smooth -77.1 age 4 s
+ id 8 hop 2 parent 1 rssi -64 smooth -66.2 age 4 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.2 age 0 s
+ DATA gen 20 sent 20 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 6
+DATA sent: seq 20 to parent 1
+--- device 10 dv hop 3 parent 1 | adv sent 47 rx 309 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -90.6 age 10 s
+ id 1 hop 2 parent 5 rssi -67 smooth -66.9 age 4 s
+ id 3 hop 3 parent 12 rssi -76 smooth -76.8 age 2 s
+ id 4 hop 3 parent 8 rssi -82 smooth -84.7 age 1 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.0 age 10 s
+ id 6 hop 3 parent 8 rssi -75 smooth -75.0 age 4 s
+ id 7 hop 3 parent 8 rssi -78 smooth -77.3 age 3 s
+ id 8 hop 2 parent 5 rssi -66 smooth -66.1 age 4 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.1 age 0 s
+ DATA gen 21 sent 21 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 268654 ms | parent 1 -> 8 | hop 3 -> 3 | rssi -66.141784 | shorter route
+EXPIRED neighbor 0
+NEW neighbor 0
+--- device 10 dv hop 3 parent 8 | adv sent 48 rx 316 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 0 s
+ id 1 hop 3 parent 8 rssi -69 smooth -67.5 age 4 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.9 age 1 s
+ id 4 hop 3 parent 8 rssi -87 smooth -85.4 age 1 s
+ id 5 hop 1 parent 0 rssi -93 smooth -92.3 age 4 s
+ id 6 hop 3 parent 8 rssi -74 smooth -74.7 age 4 s
+ id 7 hop 3 parent 8 rssi -77 smooth -77.2 age 3 s
+ id 8 hop 2 parent 5 rssi -66 smooth -66.1 age 9 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.1 age 5 s
+ DATA gen 21 sent 21 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 21 to parent 8
+--- device 10 dv hop 3 parent 8 | adv sent 49 rx 323 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 5 s
+ id 1 hop 3 parent 8 rssi -69 smooth -68.0 age 4 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.9 age 1 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.6 age 1 s
+ id 5 hop 1 parent 0 rssi -93 smooth -92.3 age 9 s
+ id 6 hop 3 parent 8 rssi -74 smooth -74.5 age 4 s
+ id 7 hop 3 parent 8 rssi -76 smooth -76.9 age 3 s
+ id 8 hop 2 parent 5 rssi -66 smooth -66.1 age 3 s
+ id 12 hop 2 parent 5 rssi -84 smooth -85.5 age 5 s
+ DATA gen 22 sent 22 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 8 | adv sent 50 rx 330 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 10 s
+ id 1 hop 3 parent 8 rssi -75 smooth -70.1 age 3 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.2 age 1 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.6 age 6 s
+ id 5 hop 1 parent 0 rssi -92 smooth -92.2 age 4 s
+ id 6 hop 3 parent 8 rssi -76 smooth -74.9 age 4 s
+ id 7 hop 3 parent 8 rssi -76 smooth -76.6 age 3 s
+ id 8 hop 2 parent 5 rssi -65 smooth -65.8 age 3 s
+ id 12 hop 2 parent 5 rssi -88 smooth -86.3 age 4 s
+ DATA gen 22 sent 22 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 22 to parent 8
+--- device 10 dv hop 3 parent 8 | adv sent 51 rx 339 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 5 s
+ id 1 hop 2 parent 5 rssi -69 smooth -69.8 age 3 s
+ id 3 hop 3 parent 12 rssi -71 smooth -75.4 age 1 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.7 age 1 s
+ id 5 hop 1 parent 0 rssi -90 smooth -91.5 age 4 s
+ id 6 hop 3 parent 8 rssi -75 smooth -75.0 age 4 s
+ id 7 hop 3 parent 8 rssi -75 smooth -76.1 age 3 s
+ id 8 hop 2 parent 5 rssi -66 smooth -65.8 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.2 age 5 s
+ DATA gen 23 sent 23 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 8 | adv sent 52 rx 346 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 10 s
+ id 1 hop 3 parent 8 rssi -77 smooth -71.9 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -75.9 age 1 s
+ id 4 hop 3 parent 8 rssi -85 smooth -85.5 age 1 s
+ id 5 hop 1 parent 0 rssi -93 smooth -92.0 age 4 s
+ id 6 hop 3 parent 8 rssi -74 smooth -74.7 age 4 s
+ id 7 hop 3 parent 8 rssi -76 smooth -76.1 age 3 s
+ id 8 hop 2 parent 5 rssi -66 smooth -65.9 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.2 age 10 s
+ DATA gen 23 sent 23 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 23 to parent 8
+EXPIRED neighbor 0
+EXPIRED neighbor 12
+--- device 10 dv hop 3 parent 8 | adv sent 53 rx 352 dropped 0 ---
+ id 1 hop 3 parent 8 rssi -75 smooth -72.9 age 4 s
+ id 3 hop 3 parent 12 rssi -74 smooth -75.3 age 2 s
+ id 4 hop 3 parent 8 rssi -85 smooth -85.5 age 6 s
+ id 5 hop 1 parent 0 rssi -93 smooth -92.3 age 4 s
+ id 6 hop 3 parent 8 rssi -76 smooth -75.1 age 4 s
+ id 7 hop 2 parent 5 rssi -75 smooth -75.8 age 3 s
+ id 8 hop 2 parent 5 rssi -67 smooth -66.2 age 3 s
+ DATA gen 24 sent 24 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 8 | adv sent 54 rx 359 dropped 0 ---
+ id 1 hop 3 parent 8 rssi -71 smooth -72.3 age 4 s
+ id 3 hop 3 parent 12 rssi -76 smooth -75.5 age 2 s
+ id 4 hop 3 parent 8 rssi -84 smooth -85.0 age 1 s
+ id 5 hop 1 parent 0 rssi -94 smooth -92.8 age 4 s
+ id 6 hop 3 parent 8 rssi -76 smooth -75.3 age 4 s
+ id 7 hop 2 parent 5 rssi -77 smooth -76.1 age 3 s
+ id 8 hop 2 parent 5 rssi -64 smooth -65.6 age 3 s
+ DATA gen 24 sent 24 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+DATA sent: seq 24 to parent 8
+NEW neighbor 12
+--- device 10 dv hop 3 parent 8 | adv sent 55 rx 365 dropped 0 ---
+ id 1 hop 3 parent 8 rssi -72 smooth -72.2 age 3 s
+ id 3 hop 3 parent 12 rssi -76 smooth -75.5 age 7 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.3 age 1 s
+ id 5 hop 1 parent 0 rssi -94 smooth -92.8 age 9 s
+ id 6 hop 3 parent 8 rssi -76 smooth -75.5 age 4 s
+ id 7 hop 3 parent 8 rssi -73 smooth -75.2 age 3 s
+ id 8 hop 2 parent 5 rssi -67 smooth -66.0 age 3 s
+ id 12 hop 2 parent 5 rssi -87 smooth -87.0 age 0 s
+ DATA gen 25 sent 25 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 0
+--- device 10 dv hop 3 parent 8 | adv sent 56 rx 370 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.0 age 4 s
+ id 1 hop 2 parent 5 rssi -74 smooth -72.7 age 4 s
+ id 3 hop 3 parent 12 rssi -76 smooth -75.5 age 12 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.3 age 6 s
+ id 5 hop 1 parent 0 rssi -94 smooth -92.8 age 15 s
+ id 6 hop 3 parent 8 rssi -72 smooth -74.5 age 4 s
+ id 7 hop 2 parent 5 rssi -78 smooth -76.0 age 3 s
+ id 8 hop 2 parent 5 rssi -65 smooth -65.7 age 3 s
+ id 12 hop 2 parent 5 rssi -87 smooth -87.0 age 5 s
+ DATA gen 25 sent 25 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 5
+EXPIRED neighbor 3
+DATA sent: seq 25 to parent 8
+NEW neighbor 3
+--- device 10 dv hop 3 parent 8 | adv sent 57 rx 376 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.0 age 9 s
+ id 1 hop 3 parent 8 rssi -71 smooth -72.2 age 4 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.0 age 1 s
+ id 4 hop 3 parent 8 rssi -85 smooth -85.2 age 1 s
+ id 6 hop 3 parent 8 rssi -73 smooth -74.0 age 4 s
+ id 7 hop 2 parent 5 rssi -78 smooth -76.0 age 8 s
+ id 8 hop 2 parent 5 rssi -67 smooth -66.1 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.7 age 0 s
+ DATA gen 26 sent 26 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 8 | adv sent 58 rx 383 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -91.3 age 4 s
+ id 1 hop 3 parent 8 rssi -71 smooth -71.9 age 3 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.3 age 1 s
+ id 4 hop 3 parent 8 rssi -86 smooth -85.5 age 1 s
+ id 6 hop 3 parent 8 rssi -73 smooth -73.7 age 4 s
+ id 7 hop 2 parent 5 rssi -75 smooth -75.7 age 2 s
+ id 8 hop 2 parent 5 rssi -66 smooth -66.1 age 2 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.7 age 5 s
+ DATA gen 26 sent 26 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 327193 ms | parent 8 -> 7 | hop 3 -> 3 | rssi -75.72441 | shorter route
+DATA sent: seq 26 to parent 7
+--- device 10 dv hop 3 parent 7 | adv sent 59 rx 390 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -91.3 age 9 s
+ id 1 hop 3 parent 8 rssi -75 smooth -72.8 age 4 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.5 age 1 s
+ id 4 hop 3 parent 7 rssi -86 smooth -85.6 age 1 s
+ id 6 hop 3 parent 8 rssi -73 smooth -73.5 age 4 s
+ id 7 hop 2 parent 5 rssi -75 smooth -75.5 age 3 s
+ id 8 hop 3 parent 7 rssi -66 smooth -66.0 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.5 age 5 s
+ DATA gen 27 sent 27 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 3 parent 7 | adv sent 60 rx 395 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -91.3 age 14 s
+ id 1 hop 3 parent 12 rssi -70 smooth -72.0 age 4 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.4 age 1 s
+ id 4 hop 3 parent 7 rssi -86 smooth -85.6 age 6 s
+ id 6 hop 3 parent 7 rssi -72 smooth -73.1 age 4 s
+ id 7 hop 2 parent 5 rssi -74 smooth -75.1 age 2 s
+ id 8 hop 3 parent 7 rssi -67 smooth -66.3 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.5 age 10 s
+ DATA gen 27 sent 27 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 0
+ROUTE: t 337879 ms | parent 7 -> 8 | hop 3 -> 4 | rssi -66.83023 | stronger RSSI (margin exceeded)
+DATA sent: seq 27 to parent 8
+--- device 10 dv hop 4 parent 8 | adv sent 61 rx 402 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -69 smooth -71.1 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.2 age 1 s
+ id 4 hop 3 parent 12 rssi -87 smooth -86.0 age 1 s
+ id 6 hop 3 parent 7 rssi -74 smooth -73.3 age 4 s
+ id 7 hop 3 parent 12 rssi -73 smooth -74.4 age 2 s
+ id 8 hop 3 parent 7 rssi -68 smooth -66.8 age 3 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.3 age 5 s
+ DATA gen 28 sent 28 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 342647 ms | parent 8 -> 8 | hop 4 -> 3 | rssi -67.48116 | kept current parent
+--- device 10 dv hop 3 parent 8 | adv sent 62 rx 407 dropped 0 ---
+ id 1 hop 3 parent 12 rssi -72 smooth -71.3 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.2 age 6 s
+ id 4 hop 3 parent 8 rssi -85 smooth -85.7 age 0 s
+ id 6 hop 3 parent 12 rssi -77 smooth -74.4 age 4 s
+ id 7 hop 3 parent 8 rssi -72 smooth -73.7 age 2 s
+ id 8 hop 2 parent 5 rssi -69 smooth -67.5 age 2 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.3 age 10 s
+ DATA gen 28 sent 28 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 0
+ROUTE: t 347416 ms | parent 8 -> 1 | hop 3 -> 2 | rssi -72.74491 | shorter route
+DATA sent: seq 28 to parent 1
+--- device 10 dv hop 2 parent 1 | adv sent 63 rx 413 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -92 smooth -92.0 age 3 s
+ id 1 hop 1 parent 0 rssi -76 smooth -72.7 age 3 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.5 age 1 s
+ id 4 hop 3 parent 8 rssi -85 smooth -85.7 age 5 s
+ id 6 hop 3 parent 8 rssi -75 smooth -74.6 age 4 s
+ id 7 hop 2 parent 1 rssi -71 smooth -72.9 age 2 s
+ id 8 hop 2 parent 1 rssi -66 smooth -67.0 age 2 s
+ id 12 hop 2 parent 5 rssi -86 smooth -86.3 age 15 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 12
+GENERATION STOPPED: drain, only forwarding now
+--- device 10 dv hop 2 parent 1 | adv sent 64 rx 420 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.7 age 3 s
+ id 1 hop 1 parent 0 rssi -71 smooth -72.2 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.3 age 1 s
+ id 4 hop 2 parent 1 rssi -86 smooth -85.8 age 5 s
+ id 6 hop 2 parent 1 rssi -75 smooth -74.7 age 4 s
+ id 7 hop 2 parent 1 rssi -70 smooth -72.0 age 2 s
+ id 8 hop 2 parent 1 rssi -66 smooth -66.7 age 2 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+NEW neighbor 12
+NEW neighbor 5
+--- device 10 dv hop 2 parent 1 | adv sent 65 rx 428 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.7 age 9 s
+ id 1 hop 1 parent 0 rssi -71 smooth -71.9 age 3 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.5 age 1 s
+ id 4 hop 1 parent 0 rssi -86 smooth -85.9 age 5 s
+ id 5 hop 1 parent 0 rssi -94 smooth -94.0 age 3 s
+ id 6 hop 2 parent 1 rssi -76 smooth -75.1 age 4 s
+ id 7 hop 2 parent 1 rssi -70 smooth -71.4 age 2 s
+ id 8 hop 2 parent 1 rssi -70 smooth -67.7 age 2 s
+ id 12 hop 2 parent 1 rssi -87 smooth -87.0 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 2 parent 1 | adv sent 66 rx 435 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -91 smooth -91.7 age 14 s
+ id 1 hop 1 parent 0 rssi -73 smooth -72.2 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.4 age 1 s
+ id 4 hop 1 parent 0 rssi -86 smooth -85.9 age 4 s
+ id 5 hop 1 parent 0 rssi -94 smooth -94.0 age 9 s
+ id 6 hop 2 parent 1 rssi -76 smooth -75.4 age 4 s
+ id 7 hop 2 parent 1 rssi -70 smooth -71.0 age 2 s
+ id 8 hop 2 parent 1 rssi -70 smooth -68.4 age 2 s
+ id 12 hop 2 parent 1 rssi -89 smooth -87.6 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 0
+--- device 10 dv hop 2 parent 1 | adv sent 67 rx 443 dropped 0 ---
+ id 1 hop 1 parent 0 rssi -69 smooth -71.2 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -77.3 age 1 s
+ id 4 hop 1 parent 0 rssi -86 smooth -85.9 age 5 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.7 age 4 s
+ id 6 hop 2 parent 1 rssi -74 smooth -75.0 age 4 s
+ id 7 hop 2 parent 1 rssi -69 smooth -70.4 age 2 s
+ id 8 hop 2 parent 1 rssi -68 smooth -68.3 age 2 s
+ id 12 hop 2 parent 1 rssi -88 smooth -87.7 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 373270 ms | parent 1 -> 1 | hop 2 -> 3 | rssi -72.06727 | kept current parent
+--- device 10 dv hop 3 parent 1 | adv sent 68 rx 450 dropped 0 ---
+ id 1 hop 2 parent 5 rssi -74 smooth -72.1 age 3 s
+ id 3 hop 3 parent 12 rssi -76 smooth -76.9 age 0 s
+ id 4 hop 2 parent 1 rssi -84 smooth -85.4 age 4 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.7 age 9 s
+ id 6 hop 2 parent 1 rssi -73 smooth -74.4 age 4 s
+ id 7 hop 3 parent 6 rssi -74 smooth -71.5 age 2 s
+ id 8 hop 255 parent 255 rssi -64 smooth -67.0 age 2 s
+ id 12 hop 2 parent 1 rssi -91 smooth -88.7 age 3 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 377386 ms | parent 1 -> 4 | hop 3 -> 2 | rssi -84.347732 | shorter route
+--- device 10 dv hop 2 parent 4 | adv sent 69 rx 455 dropped 0 ---
+ id 1 hop 2 parent 5 rssi -78 smooth -73.8 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.9 age 0 s
+ id 4 hop 1 parent 0 rssi -82 smooth -84.3 age 4 s
+ id 5 hop 1 parent 0 rssi -93 smooth -93.7 age 14 s
+ id 6 hop 2 parent 5 rssi -75 smooth -74.6 age 4 s
+ id 7 hop 2 parent 4 rssi -73 smooth -71.9 age 2 s
+ id 8 hop 255 parent 255 rssi -64 smooth -67.0 age 7 s
+ id 12 hop 2 parent 1 rssi -91 smooth -88.7 age 9 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 5
+NEW neighbor 5
+NEW neighbor 0
+--- device 10 dv hop 2 parent 4 | adv sent 70 rx 460 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -94 smooth -94.0 age 3 s
+ id 1 hop 2 parent 5 rssi -78 smooth -73.8 age 8 s
+ id 3 hop 3 parent 12 rssi -76 smooth -76.6 age 0 s
+ id 4 hop 1 parent 0 rssi -82 smooth -84.3 age 10 s
+ id 5 hop 1 parent 0 rssi -91 smooth -91.0 age 3 s
+ id 6 hop 2 parent 5 rssi -74 smooth -74.4 age 4 s
+ id 7 hop 2 parent 4 rssi -72 smooth -72.0 age 2 s
+ id 8 hop 255 parent 255 rssi -64 smooth -67.0 age 13 s
+ id 12 hop 2 parent 1 rssi -91 smooth -88.7 age 14 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+EXPIRED neighbor 8
+--- device 10 dv hop 2 parent 4 | adv sent 71 rx 467 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -93.7 age 3 s
+ id 1 hop 3 parent 7 rssi -77 smooth -74.8 age 2 s
+ id 3 hop 3 parent 12 rssi -78 smooth -77.0 age 0 s
+ id 4 hop 1 parent 0 rssi -84 smooth -84.2 age 4 s
+ id 5 hop 1 parent 0 rssi -91 smooth -91.0 age 8 s
+ id 6 hop 2 parent 4 rssi -71 smooth -73.4 age 4 s
+ id 7 hop 2 parent 4 rssi -72 smooth -72.0 age 2 s
+ id 12 hop 2 parent 5 rssi -87 smooth -88.2 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 392901 ms | parent 4 -> 7 | hop 2 -> 3 | rssi -71.96745 | shorter route
+ROUTE: t 395590 ms | parent 7 -> 7 | hop 3 -> 4 | rssi -72.57722 | kept current parent
+--- device 10 dv hop 4 parent 7 | adv sent 72 rx 473 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -93.5 age 3 s
+ id 1 hop 3 parent 7 rssi -77 smooth -74.8 age 8 s
+ id 3 hop 3 parent 12 rssi -75 smooth -76.4 age 0 s
+ id 4 hop 3 parent 12 rssi -84 smooth -84.2 age 4 s
+ id 5 hop 1 parent 0 rssi -91 smooth -91.0 age 14 s
+ id 6 hop 3 parent 7 rssi -72 smooth -73.0 age 4 s
+ id 7 hop 3 parent 12 rssi -74 smooth -72.6 age 2 s
+ id 12 hop 2 parent 5 rssi -90 smooth -88.7 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 4 parent 7 | adv sent 73 rx 481 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -93.3 age 3 s
+ id 1 hop 3 parent 12 rssi -80 smooth -76.4 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.6 age 0 s
+ id 4 hop 3 parent 12 rssi -86 smooth -84.7 age 5 s
+ id 5 hop 1 parent 0 rssi -91 smooth -91.0 age 3 s
+ id 6 hop 3 parent 12 rssi -71 smooth -72.4 age 4 s
+ id 7 hop 3 parent 12 rssi -72 smooth -72.4 age 2 s
+ id 12 hop 2 parent 5 rssi -91 smooth -89.4 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+--- device 10 dv hop 4 parent 7 | adv sent 74 rx 486 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -93.3 age 8 s
+ id 1 hop 3 parent 12 rssi -73 smooth -75.3 age 3 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.6 age 5 s
+ id 4 hop 3 parent 12 rssi -83 smooth -84.2 age 4 s
+ id 5 hop 1 parent 0 rssi -93 smooth -91.6 age 3 s
+ id 6 hop 3 parent 12 rssi -72 smooth -72.3 age 4 s
+ id 7 hop 3 parent 12 rssi -72 smooth -72.3 age 2 s
+ id 12 hop 2 parent 5 rssi -91 smooth -89.4 age 9 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+ROUTE: t 410569 ms | parent 7 -> 1 | hop 4 -> 3 | rssi -74.34399 | shorter route
+--- device 10 dv hop 3 parent 1 | adv sent 75 rx 492 dropped 0 ---
+ id 0 hop 0 parent 0 rssi -93 smooth -93.3 age 13 s
+ id 1 hop 2 parent 5 rssi -72 smooth -74.3 age 2 s
+ id 3 hop 3 parent 12 rssi -77 smooth -76.7 age 0 s
+ id 4 hop 3 parent 12 rssi -84 smooth -84.1 age 4 s
+ id 5 hop 1 parent 0 rssi -93 smooth -91.6 age 9 s
+ id 6 hop 3 parent 12 rssi -72 smooth -72.2 age 4 s
+ id 7 hop 3 parent 1 rssi -66 smooth -70.4 age 2 s
+ id 12 hop 2 parent 5 rssi -91 smooth -89.9 age 4 s
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 3 noroute 0 ttl 0 full 0 | dup 0 invalid 0
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+MicroPython v1.29.0 on 2026-08-24; Generic ESP32 module with ESP32
+Type "help()" for more information.
+
+MPY: soft reboot
+MicroPython v1.29.0 on 2026-08-24; Generic ESP32 module with ESP32
+Type "help()" for more information.
+>>> 
