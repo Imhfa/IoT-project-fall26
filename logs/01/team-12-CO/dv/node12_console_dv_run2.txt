@@ -1,0 +1,368 @@
+BOOT,6763325,12,id=12 role=node mode=DV sensors=[4] run=2 key_id=1 channel=1 txpower=17.5 adv_ms=5000 data_ms=10000 rss_thr=-90 margin=10 ttl=10
+SENSOR,6763496,12,code=4 init ok
+RADIO,6763498,12,tx_power_dbm=17.0
+WORKER,6763500,12,started
+NEIGH,6765607,12,add id=10 hop=1 parent=0 rssi=-79
+ROUTE,6765613,12,old_parent=255 old_hop=255 new_parent=10 new_hop=2 rss=-79.0 reason=route acquired
+NEIGH,6767487,12,add id=8 hop=2 parent=5 rssi=-86
+NEIGH,6769152,12,add id=3 hop=2 parent=10 rssi=-80
+ROUTE,6770896,12,old_parent=10 old_hop=2 new_parent=3 new_hop=3 rss=-80.0 reason=shorter route (3 < 4 hops)
+TABLE,6774380,12,me=12 parent=3 hop=3 neighbors=3
+TABLE,6774387,12,  id=  3 hop=  2 parent= 10 rssi= -80 smooth= -80.0 age_ms= 5230 PARENT eligible
+TABLE,6774392,12,  id=  8 hop=  2 parent=  5 rssi= -86 smooth= -86.0 age_ms= 6895 eligible
+TABLE,6774403,12,  id= 10 hop=  3 parent=  8 rssi= -81 smooth= -79.6 age_ms= 3485 eligible
+NEIGH,6774754,12,add id=7 hop=3 parent=3 rssi=-83
+DROP,6775814,12,outer header rejected: hdr: run_id 1
+NEIGH,6781012,12,add id=1 hop=3 parent=3 rssi=-79
+DROP,6781132,12,outer header rejected: hdr: run_id 1
+NEIGH,6782818,12,expired id=8
+NEIGH,6782894,12,add id=8 hop=3 parent=6 rssi=-85
+ROUTE,6784693,12,old_parent=3 old_hop=3 new_parent=3 new_hop=4 rss=-79.2 reason=parent hop changed
+TABLE,6785820,12,me=12 parent=3 hop=4 neighbors=5
+TABLE,6785827,12,  id=  1 hop=  3 parent=  3 rssi= -79 smooth= -79.0 age_ms= 4808 eligible
+TABLE,6785833,12,  id=  3 hop=  3 parent=  6 rssi= -78 smooth= -79.2 age_ms= 1129 PARENT eligible
+TABLE,6785844,12,  id=  7 hop=  3 parent=  3 rssi= -83 smooth= -83.0 age_ms=11066 eligible
+TABLE,6785855,12,  id=  8 hop=  3 parent=  6 rssi= -85 smooth= -85.0 age_ms= 2927 eligible
+TABLE,6785866,12,  id= 10 hop=  3 parent=  8 rssi= -82 smooth= -80.3 age_ms= 4617 eligible
+ROUTE,6789992,12,old_parent=3 old_hop=4 new_parent=10 new_hop=4 rss=-80.3 reason=shorter route (4 < 6 hops)
+NEIGH,6790167,12,expired id=7
+ROUTE,6791545,12,old_parent=10 old_hop=4 new_parent=10 new_hop=2 rss=-80.8 reason=parent hop changed
+STAT,6794355,12,mode=DV run=2 parent=10 hop=2 seq=0 tx_adv=6 tx_data_orig=0 tx_data_relay=0 tx_bad_inject=0 send_err=0 rx=16 rx_hdr_reject=2 rx_crc_fail=0 rx_inner_reject=0 rx_adv=13 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=1 rx_data_dup=0 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+NEIGH,6795092,12,add id=7 hop=4 parent=10 rssi=-85
+TABLE,6796503,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,6796510,12,  id=  1 hop=  3 parent=  3 rssi= -85 smooth= -80.8 age_ms=10161 eligible
+TABLE,6796516,12,  id=  3 hop=  5 parent= 10 rssi= -80 smooth= -79.4 age_ms= 6519 eligible
+TABLE,6796527,12,  id=  7 hop=  4 parent= 10 rssi= -85 smooth= -85.0 age_ms= 1412 eligible
+TABLE,6796534,12,  id=  8 hop=  3 parent=  6 rssi= -85 smooth= -85.0 age_ms=13610 eligible
+TABLE,6796545,12,  id= 10 hop=  1 parent=  0 rssi= -82 smooth= -80.8 age_ms= 4962 PARENT eligible
+DROP,6796682,12,outer header rejected: hdr: run_id 1
+NEIGH,6796826,12,add id=6 hop=2 parent=10 rssi=-90
+FWD,6798518,12,origin=3 seq=0 dest=10 ttl=8
+NEIGH,6798563,12,expired id=8
+TABLE,6806948,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,6806959,12,  id=  1 hop=  2 parent= 10 rssi= -82 smooth= -81.8 age_ms= 4798 eligible
+TABLE,6806965,12,  id=  3 hop=  2 parent= 10 rssi= -79 smooth= -79.3 age_ms= 1230 eligible
+TABLE,6806972,12,  id=  6 hop=  2 parent= 10 rssi= -89 smooth= -89.7 age_ms= 4942 eligible
+TABLE,6806978,12,  id=  7 hop=  4 parent= 10 rssi= -85 smooth= -85.0 age_ms=11851 eligible
+TABLE,6806989,12,  id= 10 hop=  1 parent=  0 rssi= -81 smooth= -80.3 age_ms=    0 PARENT eligible
+NEIGH,6811127,12,expired id=7
+NEIGH,6813855,12,add id=8 hop=2 parent=10 rssi=-82
+NEIGH,6816375,12,add id=7 hop=2 parent=10 rssi=-87
+NEIGH,6817668,12,expired id=6
+NEIGH,6817674,12,expired id=1
+TABLE,6817681,12,me=12 parent=10 hop=2 neighbors=4
+TABLE,6817688,12,  id=  3 hop=  2 parent= 10 rssi= -81 smooth= -79.8 age_ms= 1481 eligible
+TABLE,6817698,12,  id=  7 hop=  2 parent= 10 rssi= -87 smooth= -87.0 age_ms= 1299 eligible
+TABLE,6817706,12,  id=  8 hop=  2 parent= 10 rssi= -82 smooth= -82.0 age_ms= 3819 eligible
+TABLE,6817712,12,  id= 10 hop=  1 parent=  0 rssi= -81 smooth= -80.3 age_ms=10731 PARENT eligible
+NEIGH,6818172,12,add id=1 hop=3 parent=7 rssi=-85
+NEIGH,6818347,12,add id=13 hop=3 parent=6 rssi=-87
+ROUTE,6822629,12,old_parent=10 old_hop=2 new_parent=3 new_hop=3 rss=-79.9 reason=shorter route (3 < 5 hops)
+GENSTART,6823502,12,data generation starts
+STAT,6823509,12,mode=DV run=2 parent=3 hop=3 seq=0 tx_adv=12 tx_data_orig=0 tx_data_relay=1 tx_bad_inject=0 send_err=0 rx=39 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=30 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=5 rx_data_dup=0 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+GEN,6823607,12,seq=1 code=4 dest=3 hop=3 smoke=0 (none) ao=368 mode=analog status=sent
+STAT,6824975,12,mode=DV run=2 parent=3 hop=3 seq=1 tx_adv=12 tx_data_orig=1 tx_data_relay=1 tx_bad_inject=0 send_err=0 rx=40 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=31 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=5 rx_data_dup=0 rx_data_ttl0=0 gen=1 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+TABLE,6828180,12,me=12 parent=3 hop=3 neighbors=6
+TABLE,6828187,12,  id=  1 hop=  3 parent=  3 rssi= -82 smooth= -84.1 age_ms= 4938 eligible
+TABLE,6828194,12,  id=  3 hop=  2 parent= 10 rssi= -81 smooth= -80.2 age_ms= 1201 PARENT eligible
+TABLE,6828199,12,  id=  7 hop=  2 parent= 10 rssi= -87 smooth= -87.0 age_ms=11807 eligible
+TABLE,6828210,12,  id=  8 hop=  3 parent=  1 rssi= -90 smooth= -84.4 age_ms= 3547 eligible
+TABLE,6828222,12,  id= 10 hop=  4 parent=  9 rssi= -82 smooth= -80.8 age_ms= 5557 eligible
+TABLE,6828228,12,  id= 13 hop=  3 parent=  6 rssi= -87 smooth= -87.0 age_ms= 9841 eligible
+NEIGH,6832398,12,expired id=7
+NEIGH,6833434,12,expired id=13
+GEN,6833887,12,seq=2 code=4 dest=3 hop=3 smoke=0 (none) ao=369 mode=analog status=sent
+NEIGH,6836963,12,add id=7 hop=4 parent=1 rssi=-81
+ROUTE,6837787,12,old_parent=3 old_hop=3 new_parent=10 new_hop=4 rss=-80.6 reason=shorter route (4 < 5 hops)
+TABLE,6838632,12,me=12 parent=10 hop=4 neighbors=5
+TABLE,6838639,12,  id=  1 hop=  3 parent=  3 rssi= -79 smooth= -82.6 age_ms= 5198 eligible
+TABLE,6838649,12,  id=  3 hop=  4 parent=  8 rssi= -81 smooth= -80.4 age_ms=  851 eligible
+TABLE,6838656,12,  id=  7 hop=  4 parent=  1 rssi= -81 smooth= -81.0 age_ms= 1669 eligible
+TABLE,6838662,12,  id=  8 hop=  3 parent=  1 rssi= -90 smooth= -84.4 age_ms=13998 eligible
+TABLE,6838673,12,  id= 10 hop=  3 parent= 13 rssi= -80 smooth= -80.6 age_ms= 5789 PARENT eligible
+NEIGH,6839648,12,expired id=8
+NEIGH,6840427,12,add id=8 hop=3 parent=13 rssi=-87
+ROUTE,6843739,12,old_parent=10 old_hop=4 new_parent=10 new_hop=2 rss=-80.7 reason=parent hop changed
+GEN,6844828,12,seq=3 code=4 dest=10 hop=2 smoke=0 (none) ao=366 mode=analog status=sent
+ROUTE,6848808,12,old_parent=10 old_hop=2 new_parent=7 new_hop=3 rss=-81.6 reason=shorter route (3 < 4 hops)
+TABLE,6849220,12,me=12 parent=7 hop=3 neighbors=5
+TABLE,6849227,12,  id=  1 hop=  2 parent= 10 rssi= -82 smooth= -82.4 age_ms= 5198 eligible
+TABLE,6849232,12,  id=  3 hop=  3 parent=  1 rssi= -80 smooth= -80.3 age_ms= 5966 eligible
+TABLE,6849243,12,  id=  7 hop=  2 parent= 10 rssi= -83 smooth= -81.6 age_ms= 1368 PARENT eligible
+TABLE,6849255,12,  id=  8 hop=  3 parent= 13 rssi= -87 smooth= -87.0 age_ms= 8795 eligible
+TABLE,6849266,12,  id= 10 hop=  3 parent= 13 rssi= -81 smooth= -80.8 age_ms=  418 eligible
+ROUTE,6853032,12,old_parent=7 old_hop=3 new_parent=1 new_hop=3 rss=-82.4 reason=old parent uses me as parent
+GEN,6855408,12,seq=4 code=4 dest=1 hop=3 smoke=0 (none) ao=368 mode=analog status=sent
+NEIGH,6855529,12,expired id=8
+STAT,6855545,12,mode=DV run=2 parent=1 hop=3 seq=4 tx_adv=18 tx_data_orig=4 tx_data_relay=1 tx_bad_inject=0 send_err=0 rx=62 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=44 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=14 rx_data_dup=0 rx_data_ttl0=0 gen=4 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+NEIGH,6859847,12,expired id=1
+ROUTE,6859852,12,old_parent=1 old_hop=3 new_parent=3 new_hop=3 rss=-79.0 reason=old parent expired
+TABLE,6859934,12,me=12 parent=3 hop=3 neighbors=3
+TABLE,6859942,12,  id=  3 hop=  2 parent= 10 rssi= -76 smooth= -79.0 age_ms= 5907 PARENT eligible
+TABLE,6859961,12,  id=  7 hop=  3 parent= 12 rssi= -87 smooth= -83.7 age_ms= 1409 uses me as parent
+TABLE,6859968,12,  id= 10 hop=  3 parent= 13 rssi= -81 smooth= -80.8 age_ms=11049 eligible
+NEIGH,6860602,12,add id=8 hop=3 parent=7 rssi=-88
+FWD,6863539,12,origin=8 seq=7 dest=3 ttl=5
+NEIGH,6864085,12,expired id=10
+NEIGH,6865635,12,add id=13 hop=4 parent=8 rssi=-86
+GEN,6865889,12,seq=5 code=4 dest=3 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+ROUTE,6869166,12,old_parent=3 old_hop=3 new_parent=8 new_hop=4 rss=-88.0 reason=shorter route (4 < 5 hops)
+NEIGH,6869343,12,add id=10 hop=4 parent=1 rssi=-81
+NEIGH,6870456,12,add id=1 hop=4 parent=8 rssi=-85
+TABLE,6870571,12,me=12 parent=8 hop=4 neighbors=6
+TABLE,6870578,12,  id=  1 hop=  4 parent=  8 rssi= -85 smooth= -85.0 age_ms=  119 eligible
+TABLE,6870583,12,  id=  3 hop=  4 parent=  8 rssi= -78 smooth= -78.7 age_ms= 1410 eligible
+TABLE,6870594,12,  id=  7 hop=  3 parent= 12 rssi= -87 smooth= -83.7 age_ms=12130 uses me as parent
+TABLE,6870611,12,  id=  8 hop=  3 parent=  7 rssi= -88 smooth= -88.0 age_ms= 9970 PARENT eligible
+TABLE,6870617,12,  id= 10 hop=  4 parent=  1 rssi= -81 smooth= -81.0 age_ms= 1232 eligible
+TABLE,6870778,12,  id= 13 hop=  4 parent=  8 rssi= -86 smooth= -86.0 age_ms= 4939 eligible
+NEIGH,6873676,12,expired id=7
+GEN,6876059,12,seq=6 code=4 dest=8 hop=4 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,6881056,12,add id=6 hop=1 parent=0 rssi=-89
+ROUTE,6881062,12,old_parent=8 old_hop=4 new_parent=6 new_hop=2 rss=-89.0 reason=shorter route (2 < 4 hops)
+TABLE,6881252,12,me=12 parent=6 hop=2 neighbors=6
+TABLE,6881259,12,  id=  1 hop=  4 parent=  8 rssi= -85 smooth= -85.0 age_ms=10799 eligible
+TABLE,6881270,12,  id=  3 hop=  4 parent=  8 rssi= -77 smooth= -78.2 age_ms= 6588 eligible
+TABLE,6881277,12,  id=  6 hop=  1 parent=  0 rssi= -89 smooth= -89.0 age_ms=  200 PARENT eligible
+TABLE,6881287,12,  id=  8 hop=  3 parent= 13 rssi= -86 smooth= -87.4 age_ms= 9991 eligible
+TABLE,6881294,12,  id= 10 hop=  4 parent=  1 rssi= -81 smooth= -81.0 age_ms=11912 eligible
+TABLE,6881305,12,  id= 13 hop=  5 parent= 10 rssi= -90 smooth= -87.4 age_ms= 5488 eligible
+NEIGH,6884447,12,expired id=10
+NEIGH,6884972,12,add id=10 hop=1 parent=0 rssi=-81
+NEIGH,6885538,12,expired id=1
+STAT,6885554,12,mode=DV run=2 parent=6 hop=2 seq=6 tx_adv=24 tx_data_orig=6 tx_data_relay=2 tx_bad_inject=0 send_err=0 rx=86 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=56 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=25 rx_data_dup=0 rx_data_ttl0=0 gen=6 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+NEIGH,6886119,12,add id=1 hop=2 parent=6 rssi=-85
+NEIGH,6886566,12,expired id=8
+GEN,6886890,12,seq=7 code=4 dest=6 hop=2 smoke=0 (none) ao=368 mode=analog status=sent
+NEIGH,6890358,12,add id=7 hop=2 parent=10 rssi=-83
+NEIGH,6890787,12,expired id=13
+TABLE,6891811,12,me=12 parent=6 hop=2 neighbors=5
+TABLE,6891818,12,  id=  1 hop=  2 parent=  6 rssi= -84 smooth= -84.7 age_ms=  227 eligible
+TABLE,6891823,12,  id=  3 hop=  2 parent= 10 rssi= -77 smooth= -78.0 age_ms=  250 eligible
+TABLE,6891834,12,  id=  6 hop=  1 parent=  0 rssi= -89 smooth= -89.0 age_ms=10760 PARENT eligible
+TABLE,6891851,12,  id=  7 hop=  2 parent= 10 rssi= -83 smooth= -83.0 age_ms= 1459 eligible
+TABLE,6891857,12,  id= 10 hop=  1 parent=  0 rssi= -81 smooth= -81.0 age_ms= 6848 eligible
+ROUTE,6896597,12,old_parent=6 old_hop=2 new_parent=10 new_hop=2 rss=-81.3 reason=old parent stale
+NEIGH,6897009,12,expired id=6
+GEN,6897271,12,seq=8 code=4 dest=10 hop=2 smoke=0 (none) ao=368 mode=analog status=sent
+NEIGH,6897278,12,add id=8 hop=2 parent=10 rssi=-89
+NEIGH,6902314,12,add id=13 hop=2 parent=10 rssi=-85
+TABLE,6902326,12,me=12 parent=10 hop=2 neighbors=6
+TABLE,6902332,12,  id=  1 hop=  2 parent=  6 rssi= -84 smooth= -84.7 age_ms=10729 eligible
+TABLE,6902343,12,  id=  3 hop=  3 parent= 12 rssi= -78 smooth= -78.2 age_ms=  243 uses me as parent
+TABLE,6902349,12,  id=  7 hop=  2 parent= 10 rssi= -83 smooth= -83.0 age_ms= 6534 eligible
+TABLE,6902512,12,  id=  8 hop=  2 parent= 10 rssi= -89 smooth= -89.0 age_ms= 5037 eligible
+TABLE,6902519,12,  id= 10 hop=  1 parent=  0 rssi= -82 smooth= -81.3 age_ms= 6859 PARENT eligible
+TABLE,6902529,12,  id= 13 hop=  2 parent= 10 rssi= -85 smooth= -85.0 age_ms=    0 eligible
+FWD,6905181,12,origin=3 seq=10 dest=10 ttl=8
+GEN,6907461,12,seq=9 code=4 dest=10 hop=2 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,6910770,12,expired id=10
+ROUTE,6910775,12,old_parent=10 old_hop=2 new_parent=7 new_hop=3 rss=-83.0 reason=old parent expired
+NEIGH,6911119,12,add id=10 hop=1 parent=0 rssi=-81
+ROUTE,6911120,12,old_parent=7 old_hop=3 new_parent=10 new_hop=2 rss=-81.0 reason=old parent stale
+NEIGH,6911837,12,expired id=7
+NEIGH,6912855,12,expired id=8
+TABLE,6912866,12,me=12 parent=10 hop=2 neighbors=4
+TABLE,6912873,12,  id=  1 hop=  2 parent= 10 rssi= -85 smooth= -84.2 age_ms=  329 eligible
+TABLE,6912879,12,  id=  3 hop=  3 parent= 12 rssi= -78 smooth= -78.1 age_ms= 5637 uses me as parent
+TABLE,6912890,12,  id= 10 hop=  1 parent=  0 rssi= -81 smooth= -81.0 age_ms= 1748 PARENT eligible
+TABLE,6912902,12,  id= 13 hop=  2 parent= 10 rssi= -85 smooth= -85.0 age_ms=10547 eligible
+NEIGH,6913184,12,add id=9 hop=3 parent=13 rssi=-89
+STAT,6916113,12,mode=DV run=2 parent=10 hop=2 seq=9 tx_adv=29 tx_data_orig=9 tx_data_relay=3 tx_bad_inject=0 send_err=0 rx=111 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=73 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=32 rx_data_dup=0 rx_data_ttl0=0 gen=9 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ROUTE,6916593,12,old_parent=10 old_hop=2 new_parent=10 new_hop=3 rss=-80.7 reason=parent hop changed
+GEN,6918332,12,seq=10 code=4 dest=10 hop=3 smoke=0 (none) ao=368 mode=analog status=sent
+ROUTE,6921889,12,old_parent=10 old_hop=3 new_parent=10 new_hop=2 rss=-81.4 reason=parent hop changed
+NEIGH,6922597,12,expired id=3
+NEIGH,6923086,12,add id=3 hop=2 parent=10 rssi=-78
+TABLE,6923642,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,6923649,12,  id=  1 hop=  2 parent= 10 rssi= -80 smooth= -82.1 age_ms=  643 eligible
+TABLE,6923656,12,  id=  3 hop=  2 parent= 10 rssi= -78 smooth= -78.0 age_ms=  561 eligible
+TABLE,6923667,12,  id=  9 hop=  2 parent=  5 rssi= -90 smooth= -89.3 age_ms=  243 eligible
+TABLE,6923673,12,  id= 10 hop=  1 parent=  0 rssi= -83 smooth= -81.4 age_ms= 1759 PARENT eligible
+TABLE,6923680,12,  id= 13 hop=  3 parent=  6 rssi= -83 smooth= -83.8 age_ms=  222 eligible
+GEN,6928832,12,seq=11 code=4 dest=10 hop=2 smoke=0 (none) ao=366 mode=analog status=sent
+TABLE,6934192,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,6934199,12,  id=  1 hop=  2 parent= 10 rssi= -82 smooth= -82.0 age_ms= 6072 eligible
+TABLE,6934209,12,  id=  3 hop=  2 parent= 10 rssi= -79 smooth= -78.3 age_ms= 6019 eligible
+TABLE,6934216,12,  id=  9 hop=  2 parent=  5 rssi= -90 smooth= -89.3 age_ms=10792 eligible
+TABLE,6934222,12,  id= 10 hop=  1 parent=  0 rssi= -82 smooth= -81.3 age_ms= 1858 PARENT eligible
+TABLE,6934233,12,  id= 13 hop=  3 parent=  6 rssi= -84 smooth= -83.8 age_ms=  219 eligible
+GEN,6939272,12,seq=12 code=4 dest=10 hop=2 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,6939386,12,expired id=9
+TABLE,6944664,12,me=12 parent=10 hop=2 neighbors=4
+TABLE,6944672,12,  id=  1 hop=  2 parent= 10 rssi= -82 smooth= -82.0 age_ms= 5702 eligible
+TABLE,6944678,12,  id=  3 hop=  2 parent= 10 rssi= -80 smooth= -78.8 age_ms= 6034 eligible
+TABLE,6944684,12,  id= 10 hop=  1 parent=  0 rssi= -80 smooth= -80.9 age_ms= 7263 PARENT eligible
+TABLE,6944690,12,  id= 13 hop=  3 parent=  6 rssi= -84 smooth= -83.8 age_ms=10691 eligible
+NEIGH,6944917,12,add id=9 hop=2 parent=10 rssi=-90
+STAT,6946745,12,mode=DV run=2 parent=10 hop=2 seq=12 tx_adv=35 tx_data_orig=12 tx_data_relay=3 tx_bad_inject=0 send_err=0 rx=136 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=89 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=41 rx_data_dup=0 rx_data_ttl0=0 gen=12 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ROUTE,6947951,12,old_parent=10 old_hop=2 new_parent=3 new_hop=3 rss=-78.8 reason=old parent no route
+NEIGH,6948707,12,add id=7 hop=3 parent=1 rssi=-89
+ROUTE,6949330,12,old_parent=3 old_hop=3 new_parent=1 new_hop=3 rss=-82.0 reason=old parent uses me as parent
+NEIGH,6949826,12,expired id=13
+GEN,6950063,12,seq=13 code=4 dest=1 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,6954167,12,expired id=1
+ROUTE,6954172,12,old_parent=1 old_hop=3 new_parent=9 new_hop=3 rss=-90.0 reason=old parent expired
+NEIGH,6954724,12,add id=1 hop=3 parent=3 rssi=-80
+TABLE,6955271,12,me=12 parent=9 hop=3 neighbors=5
+TABLE,6955278,12,  id=  1 hop=  3 parent=  3 rssi= -80 smooth= -80.0 age_ms=  547 eligible
+TABLE,6955284,12,  id=  3 hop=  3 parent=  1 rssi= -81 smooth= -79.7 age_ms=  647 eligible
+TABLE,6955295,12,  id=  7 hop=  3 parent=  1 rssi= -89 smooth= -89.0 age_ms= 6567 eligible
+TABLE,6955301,12,  id=  9 hop=  2 parent= 10 rssi= -90 smooth= -90.0 age_ms=10357 PARENT eligible
+TABLE,6955308,12,  id= 10 hop=255 parent=255 rssi= -80 smooth= -80.6 age_ms= 7329 no route
+NEIGH,6960518,12,expired id=9
+ROUTE,6960523,12,old_parent=9 old_hop=3 new_parent=3 new_hop=4 rss=-79.7 reason=old parent expired
+GEN,6960933,12,seq=14 code=4 dest=3 hop=4 smoke=0 (none) ao=366 mode=analog status=sent
+ROUTE,6965508,12,old_parent=3 old_hop=4 new_parent=10 new_hop=4 rss=-80.8 reason=shorter route (4 < 5 hops)
+TABLE,6965802,12,me=12 parent=10 hop=4 neighbors=4
+TABLE,6965810,12,  id=  1 hop=  3 parent=  6 rssi= -83 smooth= -80.9 age_ms=  581 eligible
+TABLE,6965899,12,  id=  3 hop=  4 parent=  7 rssi= -81 smooth= -80.1 age_ms=  302 eligible
+TABLE,6965905,12,  id=  7 hop=  3 parent=  9 rssi= -87 smooth= -88.6 age_ms= 1291 eligible
+TABLE,6965911,12,  id= 10 hop=  3 parent=  6 rssi= -81 smooth= -80.8 age_ms= 2279 PARENT eligible
+GEN,6971703,12,seq=15 code=4 dest=10 hop=4 smoke=0 (none) ao=367 mode=analog status=sent
+TABLE,6976431,12,me=12 parent=10 hop=4 neighbors=4
+TABLE,6976439,12,  id=  1 hop=  3 parent=  8 rssi= -81 smooth= -80.9 age_ms=  452 eligible
+TABLE,6976444,12,  id=  3 hop=  4 parent=  7 rssi= -80 smooth= -80.1 age_ms=  329 eligible
+TABLE,6976455,12,  id=  7 hop=  3 parent=  9 rssi= -85 smooth= -87.5 age_ms= 1290 eligible
+TABLE,6976472,12,  id= 10 hop=  3 parent=  6 rssi= -81 smooth= -80.8 age_ms=12908 PARENT eligible
+STAT,6977454,12,mode=DV run=2 parent=10 hop=4 seq=15 tx_adv=41 tx_data_orig=15 tx_data_relay=3 tx_bad_inject=0 send_err=0 rx=158 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=103 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=48 rx_data_dup=1 rx_data_ttl0=0 gen=15 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+NEIGH,6978528,12,expired id=10
+ROUTE,6978534,12,old_parent=10 old_hop=4 new_parent=1 new_hop=4 rss=-80.9 reason=old parent expired
+GEN,6981994,12,seq=16 code=4 dest=1 hop=4 smoke=0 (none) ao=365 mode=analog status=sent
+NEIGH,6985037,12,add id=10 hop=2 parent=4 rssi=-81
+ROUTE,6985038,12,old_parent=1 old_hop=4 new_parent=10 new_hop=3 rss=-81.0 reason=shorter route (3 < 4 hops)
+TABLE,6987082,12,me=12 parent=10 hop=3 neighbors=4
+TABLE,6987089,12,  id=  1 hop=  3 parent= 10 rssi= -83 smooth= -81.6 age_ms= 5882 eligible
+TABLE,6987100,12,  id=  3 hop=  4 parent=  7 rssi= -80 smooth= -80.1 age_ms=10980 eligible
+TABLE,6987106,12,  id=  7 hop=  3 parent=  9 rssi= -85 smooth= -87.5 age_ms=11941 eligible
+TABLE,6987113,12,  id= 10 hop=  2 parent=  4 rssi= -81 smooth= -81.0 age_ms= 2052 PARENT eligible
+NEIGH,6990288,12,expired id=7
+ROUTE,6990333,12,old_parent=10 old_hop=3 new_parent=10 new_hop=4 rss=-81.3 reason=parent hop changed
+NEIGH,6991387,12,expired id=3
+NEIGH,6992187,12,add id=3 hop=3 parent=6 rssi=-79
+GEN,6992415,12,seq=17 code=4 dest=10 hop=4 smoke=0 (none) ao=367 mode=analog status=sent
+ROUTE,6995735,12,old_parent=10 old_hop=4 new_parent=10 new_hop=2 rss=-80.9 reason=parent hop changed
+NEIGH,6996759,12,expired id=1
+TABLE,6997853,12,me=12 parent=10 hop=2 neighbors=2
+TABLE,6997860,12,  id=  3 hop=  3 parent=  6 rssi= -79 smooth= -79.0 age_ms= 5674 eligible
+TABLE,6997871,12,  id= 10 hop=  1 parent=  0 rssi= -80 smooth= -80.9 age_ms= 2120 PARENT eligible
+FWD,6998587,12,origin=3 seq=19 dest=10 ttl=8
+NEIGH,7001626,12,add id=7 hop=2 parent=10 rssi=-89
+NEIGH,7002163,12,add id=1 hop=2 parent=10 rssi=-82
+GEN,7002705,12,seq=18 code=4 dest=10 hop=2 smoke=0 (none) ao=368 mode=analog status=sent
+NEIGH,7002843,12,add id=9 hop=2 parent=10 rssi=-88
+TABLE,7008522,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,7008529,12,  id=  1 hop=  2 parent= 10 rssi= -82 smooth= -82.0 age_ms= 6360 eligible
+TABLE,7008536,12,  id=  3 hop=  2 parent= 10 rssi= -81 smooth= -79.6 age_ms= 5901 eligible
+TABLE,7008547,12,  id=  7 hop=  2 parent= 10 rssi= -89 smooth= -89.0 age_ms= 6900 eligible
+TABLE,7008553,12,  id=  9 hop=  2 parent= 10 rssi= -88 smooth= -88.0 age_ms= 5680 eligible
+TABLE,7008560,12,  id= 10 hop=  1 parent=  0 rssi= -80 smooth= -81.1 age_ms= 2498 PARENT eligible
+STAT,7008575,12,mode=DV run=2 parent=10 hop=2 seq=18 tx_adv=47 tx_data_orig=18 tx_data_relay=4 tx_bad_inject=0 send_err=0 rx=177 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=114 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=55 rx_data_dup=1 rx_data_ttl0=0 gen=18 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+NEIGH,7008925,12,add id=13 hop=2 parent=10 rssi=-85
+GEN,7013096,12,seq=19 code=4 dest=10 hop=2 smoke=0 (none) ao=368 mode=analog status=sent
+ROUTE,7016799,12,old_parent=10 old_hop=2 new_parent=3 new_hop=3 rss=-80.3 reason=shorter route (3 < 4 hops)
+NEIGH,7016987,12,expired id=7
+NEIGH,7018075,12,expired id=1
+NEIGH,7018080,12,expired id=9
+TABLE,7019180,12,me=12 parent=3 hop=3 neighbors=3
+TABLE,7019188,12,  id=  3 hop=  2 parent= 10 rssi= -82 smooth= -80.3 age_ms= 5870 PARENT eligible
+TABLE,7019193,12,  id= 10 hop=  3 parent=  6 rssi= -82 smooth= -81.5 age_ms= 2387 eligible
+TABLE,7019204,12,  id= 13 hop=  2 parent= 10 rssi= -85 smooth= -85.0 age_ms=10259 eligible
+GEN,7024096,12,seq=20 code=4 dest=3 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,7028406,12,add id=1 hop=3 parent=3 rssi=-82
+ROUTE,7028412,12,old_parent=3 old_hop=3 new_parent=13 new_hop=3 rss=-85.6 reason=old parent stale
+TABLE,7029819,12,me=12 parent=13 hop=3 neighbors=4
+TABLE,7029826,12,  id=  1 hop=  3 parent=  3 rssi= -82 smooth= -82.0 age_ms= 1415 eligible
+TABLE,7029833,12,  id=  3 hop=  4 parent= 10 rssi= -79 smooth= -79.9 age_ms= 1306 eligible
+TABLE,7029839,12,  id= 10 hop=  3 parent=  6 rssi= -82 smooth= -81.5 age_ms=13026 eligible
+TABLE,7029850,12,  id= 13 hop=  2 parent=  4 rssi= -87 smooth= -85.6 age_ms=10166 PARENT eligible
+NEIGH,7031916,12,expired id=10
+GEN,7034866,12,seq=21 code=4 dest=13 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,7035196,12,expired id=13
+ROUTE,7035202,12,old_parent=13 old_hop=3 new_parent=1 new_hop=4 rss=-82.0 reason=old parent expired
+STAT,7039514,12,mode=DV run=2 parent=1 hop=4 seq=21 tx_adv=53 tx_data_orig=21 tx_data_relay=4 tx_bad_inject=0 send_err=0 rx=192 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=123 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=61 rx_data_dup=1 rx_data_ttl0=0 gen=21 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+TABLE,7040610,12,me=12 parent=1 hop=4 neighbors=2
+TABLE,7040617,12,  id=  1 hop=  3 parent= 13 rssi= -82 smooth= -82.0 age_ms= 7189 PARENT eligible
+TABLE,7040623,12,  id=  3 hop=  4 parent= 10 rssi= -77 smooth= -79.0 age_ms= 6626 eligible
+NEIGH,7043878,12,add id=7 hop=2 parent=10 rssi=-86
+ROUTE,7043883,12,old_parent=1 old_hop=4 new_parent=7 new_hop=3 rss=-86.0 reason=shorter route (3 < 4 hops)
+GEN,7045557,12,seq=22 code=4 dest=7 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+TABLE,7051316,12,me=12 parent=7 hop=3 neighbors=3
+TABLE,7051324,12,  id=  1 hop=  3 parent=  7 rssi= -80 smooth= -81.4 age_ms= 2349 eligible
+TABLE,7051330,12,  id=  3 hop=  2 parent= 10 rssi= -77 smooth= -78.4 age_ms= 6958 eligible
+TABLE,7051341,12,  id=  7 hop=  2 parent= 10 rssi= -86 smooth= -86.0 age_ms= 7437 PARENT eligible
+NEIGH,7051952,12,add id=13 hop=2 parent=10 rssi=-85
+NEIGH,7055233,12,add id=9 hop=2 parent=5 rssi=-90
+GEN,7055897,12,seq=23 code=4 dest=7 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+NEIGH,7058930,12,expired id=7
+ROUTE,7058935,12,old_parent=7 old_hop=3 new_parent=3 new_hop=3 rss=-78.4 reason=old parent expired
+NEIGH,7059371,12,add id=10 hop=1 parent=0 rssi=-82
+ROUTE,7059377,12,old_parent=3 old_hop=3 new_parent=10 new_hop=2 rss=-82.0 reason=old parent stale
+NEIGH,7060006,12,expired id=3
+NEIGH,7060551,12,add id=3 hop=2 parent=10 rssi=-77
+TABLE,7062121,12,me=12 parent=10 hop=2 neighbors=5
+TABLE,7062279,12,  id=  1 hop=  3 parent=  7 rssi= -80 smooth= -81.4 age_ms=13159 eligible
+TABLE,7062284,12,  id=  3 hop=  2 parent= 10 rssi= -77 smooth= -77.0 age_ms= 1571 eligible
+TABLE,7062295,12,  id=  9 hop=  2 parent=  5 rssi= -90 smooth= -90.0 age_ms= 6889 eligible
+TABLE,7062312,12,  id= 10 hop=  1 parent=  0 rssi= -82 smooth= -82.0 age_ms= 2759 PARENT eligible
+TABLE,7062318,12,  id= 13 hop=  2 parent= 10 rssi= -85 smooth= -85.0 age_ms=10170 eligible
+NEIGH,7064184,12,expired id=1
+NEIGH,7065007,12,add id=1 hop=3 parent=3 rssi=-80
+GEN,7066258,12,seq=24 code=4 dest=10 hop=2 smoke=0 (none) ao=361 mode=analog status=sent
+NEIGH,7067276,12,expired id=13
+NEIGH,7070157,12,add id=7 hop=2 parent=10 rssi=-88
+ROUTE,7070248,12,old_parent=10 old_hop=2 new_parent=3 new_hop=3 rss=-77.6 reason=shorter route (3 < 4 hops)
+NEIGH,7070438,12,expired id=9
+STAT,7070453,12,mode=DV run=2 parent=3 hop=3 seq=24 tx_adv=59 tx_data_orig=24 tx_data_relay=4 tx_bad_inject=0 send_err=0 rx=217 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=135 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=74 rx_data_dup=1 rx_data_ttl0=0 gen=24 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ROUTE,7070724,12,old_parent=3 old_hop=3 new_parent=7 new_hop=3 rss=-88.0 reason=old parent uses me as parent
+NEIGH,7071502,12,add id=6 hop=2 parent=10 rssi=-85
+NEIGH,7071527,12,add id=9 hop=2 parent=4 rssi=-89
+FWD,7072472,12,origin=3 seq=26 dest=7 ttl=8
+TABLE,7072581,12,me=12 parent=7 hop=3 neighbors=6
+TABLE,7072588,12,  id=  1 hop=  3 parent=  3 rssi= -83 smooth= -80.9 age_ms= 2450 eligible
+TABLE,7072595,12,  id=  3 hop=  3 parent= 12 rssi= -79 smooth= -78.0 age_ms= 1859 uses me as parent
+TABLE,7072600,12,  id=  6 hop=  2 parent= 10 rssi= -85 smooth= -85.0 age_ms= 1081 eligible
+TABLE,7072611,12,  id=  7 hop=  2 parent= 10 rssi= -88 smooth= -88.0 age_ms= 2428 PARENT eligible
+TABLE,7072623,12,  id=  9 hop=  2 parent=  4 rssi= -89 smooth= -89.0 age_ms= 1057 eligible
+TABLE,7072629,12,  id= 10 hop=  3 parent=  6 rssi= -83 smooth= -82.3 age_ms= 2340 eligible
+FWD,7074699,12,origin=1 seq=23 dest=7 ttl=8
+GEN,7076409,12,seq=25 code=4 dest=7 hop=3 smoke=0 (none) ao=367 mode=analog status=sent
+ROUTE,7082033,12,old_parent=7 old_hop=3 new_parent=6 new_hop=2 rss=-85.6 reason=shorter route (2 < 3 hops)
+TABLE,7083314,12,me=12 parent=6 hop=2 neighbors=6
+TABLE,7083321,12,  id=  1 hop=  3 parent=  7 rssi= -80 smooth= -80.6 age_ms= 8024 eligible
+TABLE,7083328,12,  id=  3 hop=  3 parent=  7 rssi= -79 smooth= -78.5 age_ms= 2233 eligible
+TABLE,7083339,12,  id=  6 hop=  1 parent=  0 rssi= -87 smooth= -85.6 age_ms= 1291 PARENT eligible
+TABLE,7083346,12,  id=  7 hop=  2 parent=  4 rssi= -83 smooth= -86.3 age_ms= 2764 eligible
+TABLE,7083357,12,  id=  9 hop=  2 parent=  4 rssi= -89 smooth= -89.0 age_ms=11790 eligible
+TABLE,7083450,12,  id= 10 hop=  3 parent=  6 rssi= -83 smooth= -82.3 age_ms=13073 eligible
+NEIGH,7085328,12,expired id=10
+NEIGH,7085970,12,add id=10 hop=2 parent=6 rssi=-83
+GEN,7086529,12,seq=26 code=4 dest=6 hop=2 smoke=0 (none) ao=366 mode=analog status=sent
+NEIGH,7087447,12,expired id=9
+NEIGH,7092504,12,add id=9 hop=2 parent=4 rssi=-88
+TABLE,7093919,12,me=12 parent=6 hop=2 neighbors=6
+TABLE,7093926,12,  id=  1 hop=  3 parent= 12 rssi= -78 smooth= -79.3 age_ms= 3049 uses me as parent
+TABLE,7093933,12,  id=  3 hop=  3 parent= 10 rssi= -79 smooth= -79.2 age_ms= 2158 eligible
+TABLE,7093944,12,  id=  6 hop=  1 parent=  0 rssi= -87 smooth= -85.6 age_ms=11896 PARENT eligible
+TABLE,7093951,12,  id=  7 hop=  3 parent=  6 rssi= -90 smooth= -87.4 age_ms= 3058 eligible
+TABLE,7093957,12,  id=  9 hop=  2 parent=  4 rssi= -88 smooth= -88.0 age_ms= 1417 eligible
+TABLE,7093963,12,  id= 10 hop=  2 parent=  6 rssi= -83 smooth= -83.0 age_ms= 7957 eligible
+NEIGH,7097137,12,expired id=6
+ROUTE,7097143,12,old_parent=6 old_hop=2 new_parent=10 new_hop=3 rss=-83.0 reason=old parent expired
+GEN,7097439,12,seq=27 code=4 dest=10 hop=3 smoke=0 (none) ao=366 mode=analog status=sent
+NEIGH,7101490,12,expired id=10
+ROUTE,7101496,12,old_parent=10 old_hop=3 new_parent=9 new_hop=3 rss=-88.0 reason=old parent expired
+STAT,7101592,12,mode=DV run=2 parent=9 hop=3 seq=27 tx_adv=64 tx_data_orig=27 tx_data_relay=6 tx_bad_inject=0 send_err=0 rx=243 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=154 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=79 rx_data_dup=1 rx_data_ttl0=0 gen=27 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+TABLE,7104689,12,me=12 parent=9 hop=3 neighbors=4
+TABLE,7104697,12,  id=  1 hop=  3 parent= 12 rssi= -82 smooth= -80.1 age_ms= 8479 uses me as parent
+TABLE,7104702,12,  id=  3 hop=  3 parent= 10 rssi= -79 smooth= -79.1 age_ms= 7878 eligible
+TABLE,7104713,12,  id=  7 hop=  3 parent=  6 rssi= -91 smooth= -88.5 age_ms= 8328 eligible
+TABLE,7104725,12,  id=  9 hop=  2 parent=  4 rssi= -88 smooth= -88.0 age_ms=12187 PARENT eligible
+NEIGH,7107828,12,expired id=9
+ROUTE,7107833,12,old_parent=9 old_hop=3 new_parent=3 new_hop=4 rss=-79.1 reason=old parent expired
+GEN,7108421,12,seq=28 code=4 dest=3 hop=4 smoke=0 (none) ao=366 mode=analog status=sent
+NEIGH,7108427,12,add id=6 hop=3 parent=4 rssi=-86
+ROUTE,7112004,12,old_parent=3 old_hop=4 new_parent=1 new_hop=4 rss=-80.4 reason=old parent stale
+NEIGH,7112206,12,expired id=7
+NEIGH,7112212,12,expired id=3
+STAT,7113268,12,mode=DV run=2 parent=1 hop=4 seq=28 tx_adv=67 tx_data_orig=28 tx_data_relay=6 tx_bad_inject=0 send_err=0 rx=248 rx_hdr_reject=3 rx_crc_fail=0 rx_inner_reject=0 rx_adv=157 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=80 rx_data_dup=2 rx_data_ttl0=0 gen=28 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0

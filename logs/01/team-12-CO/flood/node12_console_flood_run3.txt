@@ -1,0 +1,392 @@
+BOOT,10039986,12,id=12 role=node mode=FLOOD sensors=[4] run=3 key_id=1 channel=1 txpower=17.5 adv_ms=5000 data_ms=10000 rss_thr=-90 margin=10 ttl=10
+SENSOR,10040928,12,code=4 init ok
+RADIO,10040930,12,tx_power_dbm=17.0
+WORKER,10040932,12,started
+STAT,10071295,12,mode=FLOOD run=3 parent=255 hop=255 seq=0 tx_adv=0 tx_data_orig=0 tx_data_relay=0 tx_bad_inject=0 send_err=0 rx=0 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=0 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10087472,12,origin=7 seq=1 dest=255 ttl=8
+FWD,10088716,12,origin=13 seq=0 dest=255 ttl=8
+FWD,10089009,12,origin=10 seq=0 dest=255 ttl=8
+FWD,10089364,12,origin=1 seq=0 dest=255 ttl=8
+FWD,10093026,12,origin=3 seq=0 dest=255 ttl=8
+FWD,10095066,12,origin=8 seq=0 dest=255 ttl=8
+FWD,10099228,12,origin=13 seq=1 dest=255 ttl=8
+FWD,10099345,12,origin=10 seq=1 dest=255 ttl=8
+FWD,10099821,12,origin=1 seq=1 dest=255 ttl=8
+GENSTART,10100932,12,data generation starts
+STAT,10100938,12,mode=FLOOD run=3 parent=255 hop=255 seq=0 tx_adv=0 tx_data_orig=0 tx_data_relay=9 tx_bad_inject=0 send_err=0 rx=30 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=21 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+GEN,10101715,12,seq=1 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+STAT,10102244,12,mode=FLOOD run=3 parent=255 hop=255 seq=1 tx_adv=0 tx_data_orig=1 tx_data_relay=9 tx_bad_inject=0 send_err=0 rx=35 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=26 rx_data_ttl0=0 gen=1 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10104118,12,origin=3 seq=1 dest=255 ttl=7
+FWD,10104432,12,origin=6 seq=0 dest=255 ttl=6
+FWD,10106049,12,origin=8 seq=1 dest=255 ttl=8
+FWD,10107375,12,origin=5 seq=2 dest=255 ttl=5
+FWD,10108941,12,origin=7 seq=3 dest=255 ttl=6
+FWD,10110262,12,origin=1 seq=2 dest=255 ttl=8
+FWD,10110718,12,origin=13 seq=2 dest=255 ttl=8
+GEN,10112355,12,seq=2 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10114958,12,origin=6 seq=1 dest=255 ttl=7
+FWD,10116158,12,origin=8 seq=2 dest=255 ttl=7
+FWD,10119680,12,origin=7 seq=4 dest=255 ttl=6
+FWD,10120529,12,origin=10 seq=3 dest=255 ttl=7
+FWD,10120740,12,origin=1 seq=3 dest=255 ttl=8
+FWD,10121327,12,origin=13 seq=3 dest=255 ttl=8
+FWD,10121465,12,origin=9 seq=0 dest=255 ttl=8
+GEN,10122965,12,seq=3 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10123592,12,origin=4 seq=3 dest=255 ttl=6
+FWD,10125224,12,origin=3 seq=3 dest=255 ttl=7
+FWD,10125347,12,origin=6 seq=2 dest=255 ttl=7
+FWD,10126684,12,origin=8 seq=3 dest=255 ttl=8
+FWD,10128461,12,origin=5 seq=4 dest=255 ttl=6
+FWD,10130384,12,origin=7 seq=5 dest=255 ttl=8
+FWD,10131301,12,origin=10 seq=4 dest=255 ttl=8
+FWD,10131679,12,origin=9 seq=1 dest=255 ttl=6
+FWD,10131787,12,origin=13 seq=4 dest=255 ttl=8
+FWD,10131843,12,origin=1 seq=4 dest=255 ttl=7
+STAT,10132825,12,mode=FLOOD run=3 parent=255 hop=255 seq=3 tx_adv=0 tx_data_orig=3 tx_data_relay=33 tx_bad_inject=0 send_err=0 rx=122 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=89 rx_data_ttl0=0 gen=3 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10133016,12,origin=4 seq=4 dest=255 ttl=7
+GEN,10133876,12,seq=4 code=4 dest=255 hop=255 smoke=0 (none) ao=351 mode=analog status=sent
+FWD,10135908,12,origin=3 seq=4 dest=255 ttl=8
+FWD,10136174,12,origin=6 seq=3 dest=255 ttl=7
+FWD,10137655,12,origin=8 seq=4 dest=255 ttl=7
+FWD,10138889,12,origin=5 seq=5 dest=255 ttl=5
+FWD,10141663,12,origin=7 seq=6 dest=255 ttl=5
+FWD,10141785,12,origin=10 seq=5 dest=255 ttl=8
+FWD,10141859,12,origin=9 seq=2 dest=255 ttl=7
+FWD,10141894,12,origin=1 seq=5 dest=255 ttl=6
+FWD,10142418,12,origin=13 seq=5 dest=255 ttl=7
+FWD,10143426,12,origin=4 seq=5 dest=255 ttl=5
+GEN,10144626,12,seq=5 code=4 dest=255 hop=255 smoke=0 (none) ao=354 mode=analog status=sent
+FWD,10146859,12,origin=6 seq=4 dest=255 ttl=8
+FWD,10148631,12,origin=8 seq=5 dest=255 ttl=7
+FWD,10152250,12,origin=9 seq=3 dest=255 ttl=8
+FWD,10152275,12,origin=7 seq=7 dest=255 ttl=8
+FWD,10152313,12,origin=10 seq=6 dest=255 ttl=6
+FWD,10152514,12,origin=1 seq=6 dest=255 ttl=8
+FWD,10152973,12,origin=4 seq=6 dest=255 ttl=7
+FWD,10153387,12,origin=13 seq=6 dest=255 ttl=7
+GEN,10155576,12,seq=6 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10156623,12,origin=3 seq=6 dest=255 ttl=8
+FWD,10157657,12,origin=6 seq=5 dest=255 ttl=6
+FWD,10159454,12,origin=8 seq=6 dest=255 ttl=8
+FWD,10160055,12,origin=5 seq=7 dest=255 ttl=6
+FWD,10162323,12,origin=9 seq=4 dest=255 ttl=8
+FWD,10162957,12,origin=10 seq=7 dest=255 ttl=7
+STAT,10163587,12,mode=FLOOD run=3 parent=255 hop=255 seq=6 tx_adv=0 tx_data_orig=6 tx_data_relay=58 tx_bad_inject=0 send_err=0 rx=217 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=159 rx_data_ttl0=0 gen=6 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10164745,12,origin=13 seq=7 dest=255 ttl=6
+GEN,10165666,12,seq=7 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10167274,12,origin=3 seq=7 dest=255 ttl=7
+FWD,10170110,12,origin=8 seq=7 dest=255 ttl=8
+FWD,10172539,12,origin=9 seq=5 dest=255 ttl=8
+FWD,10172872,12,origin=10 seq=8 dest=255 ttl=8
+FWD,10173435,12,origin=1 seq=8 dest=255 ttl=7
+FWD,10173903,12,origin=7 seq=9 dest=255 ttl=6
+FWD,10175422,12,origin=4 seq=8 dest=255 ttl=7
+FWD,10176070,12,origin=13 seq=8 dest=255 ttl=7
+GEN,10176416,12,seq=8 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10178248,12,origin=6 seq=7 dest=255 ttl=7
+FWD,10180754,12,origin=8 seq=8 dest=255 ttl=7
+FWD,10183046,12,origin=9 seq=6 dest=255 ttl=7
+FWD,10183867,12,origin=10 seq=9 dest=255 ttl=8
+FWD,10183967,12,origin=1 seq=9 dest=255 ttl=8
+FWD,10184626,12,origin=7 seq=10 dest=255 ttl=6
+GEN,10186467,12,seq=9 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10186916,12,origin=13 seq=9 dest=255 ttl=6
+FWD,10187410,12,origin=3 seq=9 dest=255 ttl=8
+FWD,10188435,12,origin=6 seq=8 dest=255 ttl=7
+FWD,10191140,12,origin=8 seq=9 dest=255 ttl=7
+FWD,10192975,12,origin=9 seq=7 dest=255 ttl=8
+STAT,10194367,12,mode=FLOOD run=3 parent=255 hop=255 seq=9 tx_adv=0 tx_data_orig=9 tx_data_relay=78 tx_bad_inject=0 send_err=0 rx=303 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=225 rx_data_ttl0=0 gen=9 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10194633,12,origin=10 seq=10 dest=255 ttl=8
+FWD,10194955,12,origin=1 seq=10 dest=255 ttl=7
+FWD,10195179,12,origin=7 seq=11 dest=255 ttl=7
+GEN,10196927,12,seq=10 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+FWD,10198023,12,origin=13 seq=10 dest=255 ttl=7
+FWD,10198263,12,origin=3 seq=10 dest=255 ttl=8
+FWD,10198785,12,origin=6 seq=9 dest=255 ttl=7
+FWD,10201380,12,origin=8 seq=10 dest=255 ttl=8
+FWD,10203396,12,origin=9 seq=8 dest=255 ttl=7
+FWD,10204924,12,origin=10 seq=11 dest=255 ttl=7
+FWD,10205805,12,origin=1 seq=11 dest=255 ttl=7
+FWD,10206046,12,origin=7 seq=12 dest=255 ttl=7
+GEN,10207717,12,seq=11 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+FWD,10208829,12,origin=13 seq=11 dest=255 ttl=6
+FWD,10209126,12,origin=3 seq=11 dest=255 ttl=8
+FWD,10209954,12,origin=6 seq=10 dest=255 ttl=6
+FWD,10211604,12,origin=8 seq=11 dest=255 ttl=7
+FWD,10213993,12,origin=9 seq=9 dest=255 ttl=7
+FWD,10214978,12,origin=10 seq=12 dest=255 ttl=8
+FWD,10215699,12,origin=1 seq=12 dest=255 ttl=8
+FWD,10216091,12,origin=7 seq=13 dest=255 ttl=7
+FWD,10217723,12,origin=4 seq=12 dest=255 ttl=4
+GEN,10218117,12,seq=12 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10219724,12,origin=13 seq=12 dest=255 ttl=8
+FWD,10219947,12,origin=3 seq=12 dest=255 ttl=8
+FWD,10220258,12,origin=6 seq=11 dest=255 ttl=7
+FWD,10222396,12,origin=8 seq=12 dest=255 ttl=7
+FWD,10224038,12,origin=9 seq=10 dest=255 ttl=7
+FWD,10224580,12,origin=5 seq=13 dest=255 ttl=6
+STAT,10225024,12,mode=FLOOD run=3 parent=255 hop=255 seq=12 tx_adv=0 tx_data_orig=12 tx_data_relay=104 tx_bad_inject=0 send_err=0 rx=412 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=308 rx_data_ttl0=0 gen=12 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10225307,12,origin=10 seq=13 dest=255 ttl=8
+FWD,10226257,12,origin=1 seq=13 dest=255 ttl=8
+FWD,10227085,12,origin=7 seq=14 dest=255 ttl=7
+GEN,10228678,12,seq=13 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+FWD,10230908,12,origin=3 seq=13 dest=255 ttl=8
+FWD,10230940,12,origin=13 seq=13 dest=255 ttl=8
+FWD,10232671,12,origin=8 seq=13 dest=255 ttl=7
+FWD,10234408,12,origin=9 seq=11 dest=255 ttl=8
+FWD,10235674,12,origin=10 seq=14 dest=255 ttl=7
+FWD,10236617,12,origin=1 seq=14 dest=255 ttl=8
+FWD,10237965,12,origin=7 seq=15 dest=255 ttl=7
+GEN,10239478,12,seq=14 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+FWD,10241347,12,origin=6 seq=13 dest=255 ttl=7
+FWD,10241361,12,origin=13 seq=14 dest=255 ttl=8
+FWD,10241665,12,origin=3 seq=14 dest=255 ttl=8
+FWD,10243264,12,origin=8 seq=14 dest=255 ttl=8
+FWD,10246051,12,origin=10 seq=15 dest=255 ttl=7
+FWD,10247722,12,origin=1 seq=15 dest=255 ttl=7
+FWD,10248431,12,origin=7 seq=16 dest=255 ttl=6
+GEN,10249758,12,seq=15 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+FWD,10252020,12,origin=3 seq=15 dest=255 ttl=8
+FWD,10252367,12,origin=6 seq=14 dest=255 ttl=7
+FWD,10252718,12,origin=13 seq=15 dest=255 ttl=8
+FWD,10253977,12,origin=8 seq=15 dest=255 ttl=8
+FWD,10255018,12,origin=5 seq=16 dest=255 ttl=7
+STAT,10255684,12,mode=FLOOD run=3 parent=255 hop=255 seq=15 tx_adv=0 tx_data_orig=15 tx_data_relay=126 tx_bad_inject=0 send_err=0 rx=502 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=376 rx_data_ttl0=0 gen=15 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,10256676,12,origin=10 seq=16 dest=255 ttl=7
+FWD,10258127,12,origin=1 seq=16 dest=255 ttl=8
+FWD,10258767,12,origin=7 seq=17 dest=255 ttl=7
+GEN,10260409,12,seq=16 code=4 dest=255 hop=255 smoke=0 (none) ao=352 mode=analog status=sent
+FWD,10260561,12,origin=4 seq=16 dest=255 ttl=8
+FWD,10262527,12,origin=3 seq=16 dest=255 ttl=8
+FWD,10262812,12,origin=6 seq=15 dest=255 ttl=7
+FWD,10263958,12,origin=13 seq=16 dest=255 ttl=8
+FWD,10264619,12,origin=8 seq=16 dest=255 ttl=8
+FWD,10267794,12,origin=10 seq=17 dest=255 ttl=6
+FWD,10268199,12,origin=1 seq=17 dest=255 ttl=8
+FWD,10269665,12,origin=7 seq=18 dest=255 ttl=7
+FWD,10270117,12,origin=4 seq=17 dest=255 ttl=5
+GEN,10271219,12,seq=17 code=4 dest=255 hop=255 smoke=0 (none) ao=351 mode=analog status=sent
+FWD,10272818,12,origin=6 seq=16 dest=255 ttl=8
+FWD,10273375,12,origin=3 seq=17 dest=255 ttl=7
+FWD,10274933,12,origin=13 seq=17 dest=255 ttl=8
+FWD,10275920,12,origin=5 seq=18 dest=255 ttl=5
+FWD,10276442,12,origin=8 seq=17 dest=255 ttl=7
+FWD,10278068,12,origin=10 seq=18 dest=255 ttl=8
+FWD,10278410,12,origin=1 seq=18 dest=255 ttl=8
+FWD,10280305,12,origin=4 seq=18 dest=255 ttl=6
+FWD,10280542,12,origin=7 seq=19 dest=255 ttl=6
+GEN,10282099,12,seq=18 code=4 dest=255 hop=255 smoke=0 (none) ao=354 mode=analog status=sent
+FWD,10283586,12,origin=6 seq=17 dest=255 ttl=7
+FWD,10283785,12,origin=3 seq=18 dest=255 ttl=8
+ERR,10285469,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10286093,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10286151,12,rx handler: memory allocation failed, allocating 1784 bytes
+STAT,10286377,12,mode=FLOOD run=3 parent=255 hop=255 seq=18 tx_adv=0 tx_data_orig=18 tx_data_relay=149 tx_bad_inject=0 send_err=0 rx=591 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=439 rx_data_ttl0=0 gen=18 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ERR,10288350,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288470,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288496,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288517,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288730,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288861,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10288890,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10292256,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10293942,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294000,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294042,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294079,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294100,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294121,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10294230,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10295981,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10296112,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10296272,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10297112,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10297202,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10297400,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10298855,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10298952,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10298972,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10299003,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10299102,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10301011,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10301132,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10301242,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10301280,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10302399,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10304322,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10304533,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10304700,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10306800,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10306868,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10306892,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10306991,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10307051,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10308462,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10308562,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10308602,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309272,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309294,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309317,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309369,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309618,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309802,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10309912,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10312451,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10312733,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10314482,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10314503,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10315630,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10315721,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10315800,12,rx handler: memory allocation failed, allocating 1784 bytes
+STAT,10317203,12,mode=FLOOD run=3 parent=255 hop=255 seq=21 tx_adv=0 tx_data_orig=18 tx_data_relay=149 tx_bad_inject=0 send_err=0 rx=644 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=439 rx_data_ttl0=0 gen=21 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ERR,10317628,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10317691,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10317713,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10317923,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10318012,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10318080,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319562,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319589,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319799,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319921,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319942,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10319962,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10320019,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10320362,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10320441,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10321367,12,origin=9 seq=0 dest=255 ttl=7
+ERR,10321609,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10321950,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10321971,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10322050,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10322145,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10323441,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10325911,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10326042,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10326153,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10326399,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10328062,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10328162,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10328188,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10328231,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10328320,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10329980,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330791,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330833,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330856,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330876,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330897,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10330922,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10332240,12,origin=9 seq=1 dest=255 ttl=6
+ERR,10332332,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10332482,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10332503,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10332524,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10333491,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10333690,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10334228,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10336702,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10336729,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10336839,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10336860,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10336971,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10338641,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10338801,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10338822,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10338891,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10340163,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10340472,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10341172,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10341408,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10341532,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10341714,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10341776,12,origin=9 seq=2 dest=255 ttl=7
+ERR,10343472,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10343509,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10343681,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10344564,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10347000,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10347069,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10347090,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10347201,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10347261,12,rx handler: memory allocation failed, allocating 1784 bytes
+STAT,10348032,12,mode=FLOOD run=3 parent=255 hop=255 seq=24 tx_adv=0 tx_data_orig=18 tx_data_relay=152 tx_bad_inject=0 send_err=0 rx=719 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=446 rx_data_ttl0=0 gen=24 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+ERR,10349533,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10349652,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10349673,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10349802,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10350713,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10350791,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10350823,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10350860,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10351830,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10351911,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10351982,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10352014,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10352049,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10352102,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10352151,12,origin=9 seq=3 dest=255 ttl=7
+ERR,10353382,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10353449,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10353541,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10353565,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10353963,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10354133,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10354218,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10355167,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10357241,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357320,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357383,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357640,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357771,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357794,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357889,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10357931,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10358862,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10358930,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10359001,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10359552,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10359689,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10359711,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10361509,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10361609,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10361981,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10362149,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10362173,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10362198,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10362483,12,origin=9 seq=4 dest=255 ttl=7
+ERR,10362882,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10363023,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10363044,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364182,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364250,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364402,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364579,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364791,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364901,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10364960,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10365367,12,worker: memory allocation failed, allocating 1784 bytes
+ERR,10367890,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10367914,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368029,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368056,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368101,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368941,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368962,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10368982,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10369912,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10370051,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10370074,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372350,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372423,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372447,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372468,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372531,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372551,12,rx handler: memory allocation failed, allocating 1784 bytes
+ERR,10372572,12,rx handler: memory allocation failed, allocating 1784 bytes
+FWD,10372699,12,origin=9 seq=5 dest=255 ttl=8
+FWD,10374232,12,origin=13 seq=26 dest=255 ttl=7
+FWD,10375220,12,origin=4 seq=27 dest=255 ttl=5
+GEN,10375769,12,seq=27 code=4 dest=255 hop=255 smoke=0 (none) ao=353 mode=analog status=sent
+STAT,10378756,12,mode=FLOOD run=3 parent=255 hop=255 seq=27 tx_adv=0 tx_data_orig=19 tx_data_relay=157 tx_bad_inject=0 send_err=0 rx=809 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=462 rx_data_ttl0=0 gen=27 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+STAT,10378815,12,mode=FLOOD run=3 parent=255 hop=255 seq=27 tx_adv=0 tx_data_orig=19 tx_data_relay=157 tx_bad_inject=0 send_err=0 rx=809 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=462 rx_data_ttl0=0 gen=27 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0

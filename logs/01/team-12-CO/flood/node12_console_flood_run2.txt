@@ -1,0 +1,292 @@
+BOOT,9350556,12,id=12 role=node mode=FLOOD sensors=[4] run=2 key_id=1 channel=1 txpower=17.5 adv_ms=5000 data_ms=10000 rss_thr=-90 margin=10 ttl=10
+SENSOR,9350737,12,code=4 init ok
+RADIO,9350739,12,tx_power_dbm=17.0
+WORKER,9350741,12,started
+STAT,9381084,12,mode=FLOOD run=2 parent=255 hop=255 seq=0 tx_adv=0 tx_data_orig=0 tx_data_relay=0 tx_bad_inject=0 send_err=0 rx=0 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=0 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9404629,12,origin=8 seq=0 dest=255 ttl=8
+FWD,9404974,12,origin=9 seq=0 dest=255 ttl=8
+FWD,9405067,12,origin=7 seq=1 dest=255 ttl=7
+FWD,9405390,12,origin=13 seq=0 dest=255 ttl=7
+FWD,9405723,12,origin=10 seq=0 dest=255 ttl=7
+FWD,9406455,12,origin=4 seq=0 dest=255 ttl=6
+FWD,9406710,12,origin=1 seq=0 dest=255 ttl=7
+FWD,9410500,12,origin=3 seq=0 dest=255 ttl=8
+GENSTART,9410744,12,data generation starts
+STAT,9410750,12,mode=FLOOD run=2 parent=255 hop=255 seq=0 tx_adv=0 tx_data_orig=0 tx_data_relay=8 tx_bad_inject=0 send_err=0 rx=29 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=21 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+STAT,9411095,12,mode=FLOOD run=2 parent=255 hop=255 seq=0 tx_adv=0 tx_data_orig=0 tx_data_relay=8 tx_bad_inject=0 send_err=0 rx=29 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=21 rx_data_ttl0=0 gen=0 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+GEN,9411765,12,seq=1 code=4 dest=255 hop=255 smoke=0 (none) ao=357 mode=analog status=sent
+FWD,9414289,12,origin=5 seq=1 dest=255 ttl=5
+FWD,9414739,12,origin=8 seq=1 dest=255 ttl=8
+FWD,9415602,12,origin=9 seq=1 dest=255 ttl=6
+FWD,9415869,12,origin=10 seq=1 dest=255 ttl=8
+FWD,9416094,12,origin=7 seq=2 dest=255 ttl=5
+FWD,9416823,12,origin=4 seq=1 dest=255 ttl=5
+FWD,9417023,12,origin=1 seq=1 dest=255 ttl=8
+FWD,9417562,12,origin=13 seq=1 dest=255 ttl=6
+FWD,9421370,12,origin=3 seq=1 dest=255 ttl=8
+FWD,9422201,12,origin=6 seq=0 dest=255 ttl=7
+GEN,9422385,12,seq=2 code=4 dest=255 hop=255 smoke=0 (none) ao=358 mode=analog status=sent
+FWD,9425762,12,origin=8 seq=2 dest=255 ttl=7
+FWD,9425803,12,origin=9 seq=2 dest=255 ttl=7
+FWD,9426145,12,origin=7 seq=3 dest=255 ttl=7
+FWD,9426629,12,origin=10 seq=2 dest=255 ttl=8
+FWD,9427312,12,origin=4 seq=2 dest=255 ttl=4
+FWD,9427586,12,origin=1 seq=2 dest=255 ttl=8
+FWD,9428484,12,origin=13 seq=2 dest=255 ttl=8
+FWD,9432550,12,origin=3 seq=2 dest=255 ttl=7
+GEN,9433235,12,seq=3 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9435385,12,origin=5 seq=3 dest=255 ttl=5
+FWD,9435980,12,origin=8 seq=3 dest=255 ttl=8
+FWD,9436203,12,origin=9 seq=3 dest=255 ttl=6
+FWD,9437079,12,origin=7 seq=4 dest=255 ttl=6
+FWD,9437431,12,origin=4 seq=3 dest=255 ttl=6
+FWD,9437441,12,origin=10 seq=3 dest=255 ttl=7
+FWD,9438248,12,origin=1 seq=3 dest=255 ttl=5
+FWD,9439502,12,origin=13 seq=3 dest=255 ttl=6
+STAT,9441735,12,mode=FLOOD run=2 parent=255 hop=255 seq=3 tx_adv=0 tx_data_orig=3 tx_data_relay=34 tx_bad_inject=0 send_err=0 rx=106 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=72 rx_data_ttl0=0 gen=3 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9443059,12,origin=3 seq=3 dest=255 ttl=7
+FWD,9443753,12,origin=6 seq=2 dest=255 ttl=7
+GEN,9444826,12,seq=4 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9446409,12,origin=8 seq=4 dest=255 ttl=8
+FWD,9446461,12,origin=9 seq=4 dest=255 ttl=6
+FWD,9447048,12,origin=7 seq=5 dest=255 ttl=7
+FWD,9447485,12,origin=10 seq=4 dest=255 ttl=8
+FWD,9448916,12,origin=1 seq=4 dest=255 ttl=7
+FWD,9450289,12,origin=13 seq=4 dest=255 ttl=8
+FWD,9453102,12,origin=3 seq=4 dest=255 ttl=7
+FWD,9453848,12,origin=6 seq=3 dest=255 ttl=7
+GEN,9454196,12,seq=5 code=4 dest=255 hop=255 smoke=0 (none) ao=357 mode=analog status=sent
+FWD,9456575,12,origin=9 seq=5 dest=255 ttl=7
+FWD,9457004,12,origin=8 seq=5 dest=255 ttl=8
+FWD,9457842,12,origin=7 seq=6 dest=255 ttl=6
+FWD,9458688,12,origin=10 seq=5 dest=255 ttl=7
+FWD,9458697,12,origin=1 seq=5 dest=255 ttl=8
+GEN,9465156,12,seq=6 code=4 dest=255 hop=255 smoke=0 (none) ao=357 mode=analog status=sent
+FWD,9466018,12,origin=6 seq=4 dest=255 ttl=7
+FWD,9466835,12,origin=9 seq=6 dest=255 ttl=6
+FWD,9467146,12,origin=5 seq=6 dest=255 ttl=6
+FWD,9467181,12,origin=8 seq=6 dest=255 ttl=8
+FWD,9467736,12,origin=7 seq=7 dest=255 ttl=8
+FWD,9468667,12,origin=10 seq=6 dest=255 ttl=7
+FWD,9469292,12,origin=1 seq=6 dest=255 ttl=7
+FWD,9469371,12,origin=4 seq=6 dest=255 ttl=5
+FWD,9471858,12,origin=13 seq=6 dest=255 ttl=7
+STAT,9472433,12,mode=FLOOD run=2 parent=255 hop=255 seq=6 tx_adv=0 tx_data_orig=6 tx_data_relay=58 tx_bad_inject=0 send_err=0 rx=185 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=127 rx_data_ttl0=0 gen=6 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9474560,12,origin=3 seq=6 dest=255 ttl=7
+FWD,9474778,12,origin=6 seq=5 dest=255 ttl=6
+GEN,9475477,12,seq=7 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9477220,12,origin=9 seq=7 dest=255 ttl=7
+FWD,9477898,12,origin=8 seq=7 dest=255 ttl=7
+FWD,9477956,12,origin=5 seq=7 dest=255 ttl=5
+FWD,9478560,12,origin=7 seq=8 dest=255 ttl=6
+FWD,9479389,12,origin=4 seq=7 dest=255 ttl=6
+FWD,9479476,12,origin=10 seq=7 dest=255 ttl=6
+FWD,9479578,12,origin=1 seq=7 dest=255 ttl=8
+FWD,9482733,12,origin=13 seq=7 dest=255 ttl=7
+FWD,9485160,12,origin=6 seq=6 dest=255 ttl=7
+FWD,9485501,12,origin=3 seq=7 dest=255 ttl=6
+GEN,9485947,12,seq=8 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9487410,12,origin=9 seq=8 dest=255 ttl=6
+FWD,9488581,12,origin=8 seq=8 dest=255 ttl=8
+FWD,9489588,12,origin=7 seq=9 dest=255 ttl=6
+FWD,9489774,12,origin=10 seq=8 dest=255 ttl=7
+FWD,9490172,12,origin=4 seq=8 dest=255 ttl=6
+FWD,9490429,12,origin=1 seq=8 dest=255 ttl=8
+FWD,9493332,12,origin=13 seq=8 dest=255 ttl=8
+GEN,9496097,12,seq=9 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9496111,12,origin=6 seq=7 dest=255 ttl=5
+FWD,9496413,12,origin=3 seq=8 dest=255 ttl=6
+FWD,9497670,12,origin=5 seq=9 dest=255 ttl=5
+FWD,9497867,12,origin=9 seq=9 dest=255 ttl=6
+FWD,9499074,12,origin=8 seq=9 dest=255 ttl=8
+FWD,9500601,12,origin=7 seq=10 dest=255 ttl=4
+FWD,9500669,12,origin=1 seq=9 dest=255 ttl=8
+FWD,9500680,12,origin=10 seq=9 dest=255 ttl=8
+FWD,9501381,12,origin=4 seq=9 dest=255 ttl=5
+STAT,9503197,12,mode=FLOOD run=2 parent=255 hop=255 seq=9 tx_adv=0 tx_data_orig=9 tx_data_relay=86 tx_bad_inject=0 send_err=0 rx=270 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=184 rx_data_ttl0=0 gen=9 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9504251,12,origin=13 seq=9 dest=255 ttl=8
+FWD,9506259,12,origin=6 seq=8 dest=255 ttl=7
+GEN,9506947,12,seq=10 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9507909,12,origin=9 seq=10 dest=255 ttl=6
+FWD,9508446,12,origin=5 seq=10 dest=255 ttl=6
+FWD,9509212,12,origin=8 seq=10 dest=255 ttl=8
+FWD,9511079,12,origin=1 seq=10 dest=255 ttl=7
+FWD,9511146,12,origin=10 seq=10 dest=255 ttl=8
+FWD,9511708,12,origin=7 seq=11 dest=255 ttl=5
+FWD,9516556,12,origin=13 seq=10 dest=255 ttl=8
+FWD,9516700,12,origin=6 seq=9 dest=255 ttl=7
+GEN,9516947,12,seq=11 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9521527,12,origin=1 seq=11 dest=255 ttl=8
+FWD,9521882,12,origin=7 seq=12 dest=255 ttl=6
+GEN,9527147,12,seq=12 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9527375,12,origin=13 seq=11 dest=255 ttl=8
+FWD,9527616,12,origin=6 seq=10 dest=255 ttl=6
+FWD,9528489,12,origin=9 seq=12 dest=255 ttl=6
+FWD,9528610,12,origin=3 seq=11 dest=255 ttl=8
+FWD,9530059,12,origin=8 seq=12 dest=255 ttl=6
+FWD,9532030,12,origin=10 seq=12 dest=255 ttl=7
+FWD,9532229,12,origin=1 seq=12 dest=255 ttl=8
+FWD,9532900,12,origin=7 seq=13 dest=255 ttl=5
+STAT,9533958,12,mode=FLOOD run=2 parent=255 hop=255 seq=12 tx_adv=0 tx_data_orig=12 tx_data_relay=106 tx_bad_inject=0 send_err=0 rx=331 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=225 rx_data_ttl0=0 gen=12 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+GEN,9537577,12,seq=13 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9537829,12,origin=13 seq=12 dest=255 ttl=7
+FWD,9538258,12,origin=6 seq=11 dest=255 ttl=6
+FWD,9539328,12,origin=3 seq=12 dest=255 ttl=7
+FWD,9540214,12,origin=8 seq=13 dest=255 ttl=8
+FWD,9542933,12,origin=10 seq=13 dest=255 ttl=7
+FWD,9542995,12,origin=1 seq=13 dest=255 ttl=8
+FWD,9543394,12,origin=7 seq=14 dest=255 ttl=5
+GEN,9547908,12,seq=14 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9548457,12,origin=6 seq=12 dest=255 ttl=7
+FWD,9548822,12,origin=13 seq=13 dest=255 ttl=8
+FWD,9549546,12,origin=3 seq=13 dest=255 ttl=8
+FWD,9550600,12,origin=8 seq=14 dest=255 ttl=8
+FWD,9551067,12,origin=5 seq=14 dest=255 ttl=6
+FWD,9551707,12,origin=4 seq=14 dest=255 ttl=7
+FWD,9553104,12,origin=1 seq=14 dest=255 ttl=8
+FWD,9553636,12,origin=10 seq=14 dest=255 ttl=8
+FWD,9553757,12,origin=7 seq=15 dest=255 ttl=7
+GEN,9558208,12,seq=15 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9559242,12,origin=9 seq=15 dest=255 ttl=7
+FWD,9559461,12,origin=13 seq=14 dest=255 ttl=8
+FWD,9559834,12,origin=3 seq=14 dest=255 ttl=7
+FWD,9561374,12,origin=8 seq=15 dest=255 ttl=7
+FWD,9563206,12,origin=1 seq=15 dest=255 ttl=8
+FWD,9564334,12,origin=7 seq=16 dest=255 ttl=5
+STAT,9564468,12,mode=FLOOD run=2 parent=255 hop=255 seq=15 tx_adv=0 tx_data_orig=15 tx_data_relay=128 tx_bad_inject=0 send_err=0 rx=393 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=265 rx_data_ttl0=0 gen=15 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9564714,12,origin=10 seq=15 dest=255 ttl=7
+GEN,9568318,12,seq=16 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9570122,12,origin=13 seq=15 dest=255 ttl=8
+FWD,9570143,12,origin=6 seq=14 dest=255 ttl=7
+FWD,9571748,12,origin=8 seq=16 dest=255 ttl=8
+FWD,9572048,12,origin=5 seq=16 dest=255 ttl=6
+FWD,9572325,12,origin=4 seq=16 dest=255 ttl=6
+FWD,9574119,12,origin=1 seq=16 dest=255 ttl=6
+FWD,9575211,12,origin=7 seq=17 dest=255 ttl=7
+FWD,9575527,12,origin=10 seq=16 dest=255 ttl=7
+GEN,9578488,12,seq=17 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9579909,12,origin=9 seq=17 dest=255 ttl=6
+FWD,9580443,12,origin=3 seq=16 dest=255 ttl=8
+FWD,9581291,12,origin=6 seq=15 dest=255 ttl=5
+FWD,9581480,12,origin=13 seq=16 dest=255 ttl=7
+FWD,9582331,12,origin=4 seq=17 dest=255 ttl=6
+FWD,9582833,12,origin=8 seq=17 dest=255 ttl=7
+FWD,9583966,12,origin=1 seq=17 dest=255 ttl=8
+FWD,9585599,12,origin=10 seq=17 dest=255 ttl=8
+GEN,9589348,12,seq=18 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9590069,12,origin=9 seq=18 dest=255 ttl=6
+FWD,9591602,12,origin=6 seq=16 dest=255 ttl=6
+FWD,9592744,12,origin=13 seq=17 dest=255 ttl=8
+FWD,9593614,12,origin=8 seq=18 dest=255 ttl=7
+FWD,9594207,12,origin=1 seq=18 dest=255 ttl=7
+STAT,9595124,12,mode=FLOOD run=2 parent=255 hop=255 seq=18 tx_adv=0 tx_data_orig=18 tx_data_relay=150 tx_bad_inject=0 send_err=0 rx=457 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=307 rx_data_ttl0=0 gen=18 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9595676,12,origin=7 seq=19 dest=255 ttl=6
+GEN,9600188,12,seq=19 code=4 dest=255 hop=255 smoke=0 (none) ao=354 mode=analog status=sent
+FWD,9600502,12,origin=9 seq=19 dest=255 ttl=6
+FWD,9600932,12,origin=3 seq=18 dest=255 ttl=8
+FWD,9601898,12,origin=6 seq=17 dest=255 ttl=7
+FWD,9603389,12,origin=13 seq=18 dest=255 ttl=8
+FWD,9603614,12,origin=4 seq=19 dest=255 ttl=7
+FWD,9604161,12,origin=5 seq=19 dest=255 ttl=5
+FWD,9604390,12,origin=8 seq=19 dest=255 ttl=8
+FWD,9604573,12,origin=1 seq=19 dest=255 ttl=7
+FWD,9606161,12,origin=7 seq=20 dest=255 ttl=7
+FWD,9610764,12,origin=9 seq=20 dest=255 ttl=6
+GEN,9610939,12,seq=20 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9612181,12,origin=6 seq=18 dest=255 ttl=6
+FWD,9614265,12,origin=13 seq=19 dest=255 ttl=7
+FWD,9614297,12,origin=4 seq=20 dest=255 ttl=6
+FWD,9614786,12,origin=1 seq=20 dest=255 ttl=6
+FWD,9615052,12,origin=5 seq=20 dest=255 ttl=6
+FWD,9615204,12,origin=8 seq=20 dest=255 ttl=8
+FWD,9616449,12,origin=7 seq=21 dest=255 ttl=6
+FWD,9617709,12,origin=10 seq=20 dest=255 ttl=8
+GEN,9621549,12,seq=21 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9622173,12,origin=3 seq=20 dest=255 ttl=8
+STAT,9625186,12,mode=FLOOD run=2 parent=255 hop=255 seq=21 tx_adv=0 tx_data_orig=21 tx_data_relay=170 tx_bad_inject=0 send_err=0 rx=506 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=336 rx_data_ttl0=0 gen=21 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9625360,12,origin=8 seq=21 dest=255 ttl=8
+FWD,9625613,12,origin=1 seq=21 dest=255 ttl=7
+FWD,9625623,12,origin=5 seq=21 dest=255 ttl=6
+FWD,9628745,12,origin=10 seq=21 dest=255 ttl=8
+FWD,9631490,12,origin=9 seq=22 dest=255 ttl=6
+GEN,9631989,12,seq=22 code=4 dest=255 hop=255 smoke=0 (none) ao=354 mode=analog status=sent
+FWD,9632644,12,origin=3 seq=21 dest=255 ttl=8
+FWD,9635331,12,origin=4 seq=22 dest=255 ttl=5
+FWD,9635372,12,origin=13 seq=21 dest=255 ttl=8
+FWD,9635819,12,origin=1 seq=22 dest=255 ttl=7
+FWD,9636087,12,origin=8 seq=22 dest=255 ttl=8
+FWD,9636365,12,origin=5 seq=22 dest=255 ttl=4
+FWD,9638228,12,origin=7 seq=23 dest=255 ttl=7
+FWD,9639008,12,origin=10 seq=22 dest=255 ttl=7
+FWD,9641636,12,origin=9 seq=23 dest=255 ttl=6
+GEN,9642259,12,seq=23 code=4 dest=255 hop=255 smoke=0 (none) ao=357 mode=analog status=sent
+FWD,9642837,12,origin=3 seq=22 dest=255 ttl=7
+FWD,9644109,12,origin=6 seq=21 dest=255 ttl=6
+FWD,9645667,12,origin=4 seq=23 dest=255 ttl=5
+FWD,9646533,12,origin=1 seq=23 dest=255 ttl=8
+FWD,9646679,12,origin=13 seq=22 dest=255 ttl=7
+FWD,9646978,12,origin=8 seq=23 dest=255 ttl=7
+FWD,9647014,12,origin=5 seq=23 dest=255 ttl=4
+FWD,9649083,12,origin=7 seq=24 dest=255 ttl=6
+FWD,9649448,12,origin=10 seq=23 dest=255 ttl=8
+FWD,9651998,12,origin=9 seq=24 dest=255 ttl=7
+GEN,9652999,12,seq=24 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9653901,12,origin=3 seq=23 dest=255 ttl=6
+FWD,9654006,12,origin=6 seq=22 dest=255 ttl=7
+STAT,9655879,12,mode=FLOOD run=2 parent=255 hop=255 seq=24 tx_adv=0 tx_data_orig=24 tx_data_relay=196 tx_bad_inject=0 send_err=0 rx=589 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=392 rx_data_ttl0=0 gen=24 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9655985,12,origin=4 seq=24 dest=255 ttl=6
+FWD,9656737,12,origin=5 seq=24 dest=255 ttl=6
+FWD,9657430,12,origin=1 seq=24 dest=255 ttl=5
+FWD,9657583,12,origin=13 seq=23 dest=255 ttl=8
+FWD,9657598,12,origin=8 seq=24 dest=255 ttl=6
+FWD,9659576,12,origin=7 seq=25 dest=255 ttl=7
+FWD,9660530,12,origin=10 seq=24 dest=255 ttl=7
+FWD,9662266,12,origin=9 seq=25 dest=255 ttl=6
+GEN,9663759,12,seq=25 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9663985,12,origin=3 seq=24 dest=255 ttl=7
+FWD,9667554,12,origin=1 seq=25 dest=255 ttl=8
+FWD,9667570,12,origin=8 seq=25 dest=255 ttl=7
+FWD,9668178,12,origin=13 seq=24 dest=255 ttl=8
+FWD,9669874,12,origin=7 seq=26 dest=255 ttl=7
+FWD,9671187,12,origin=10 seq=25 dest=255 ttl=8
+FWD,9672539,12,origin=9 seq=26 dest=255 ttl=6
+GEN,9673829,12,seq=26 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9674625,12,origin=3 seq=25 dest=255 ttl=8
+FWD,9675208,12,origin=6 seq=24 dest=255 ttl=6
+FWD,9677116,12,origin=4 seq=26 dest=255 ttl=5
+FWD,9678130,12,origin=1 seq=26 dest=255 ttl=7
+FWD,9679424,12,origin=8 seq=26 dest=255 ttl=8
+FWD,9679450,12,origin=13 seq=25 dest=255 ttl=7
+FWD,9680631,12,origin=7 seq=27 dest=255 ttl=6
+FWD,9681506,12,origin=10 seq=26 dest=255 ttl=7
+GEN,9684570,12,seq=27 code=4 dest=255 hop=255 smoke=0 (none) ao=355 mode=analog status=sent
+FWD,9685225,12,origin=3 seq=26 dest=255 ttl=7
+STAT,9686525,12,mode=FLOOD run=2 parent=255 hop=255 seq=27 tx_adv=0 tx_data_orig=27 tx_data_relay=220 tx_bad_inject=0 send_err=0 rx=668 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=448 rx_data_ttl0=0 gen=27 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+FWD,9688714,12,origin=1 seq=27 dest=255 ttl=7
+FWD,9688880,12,origin=8 seq=27 dest=255 ttl=7
+FWD,9690244,12,origin=13 seq=26 dest=255 ttl=7
+FWD,9691017,12,origin=7 seq=28 dest=255 ttl=6
+FWD,9691540,12,origin=10 seq=27 dest=255 ttl=7
+FWD,9692775,12,origin=9 seq=28 dest=255 ttl=7
+GEN,9695420,12,seq=28 code=4 dest=255 hop=255 smoke=0 (none) ao=356 mode=analog status=sent
+FWD,9695486,12,origin=3 seq=27 dest=255 ttl=8
+FWD,9696322,12,origin=6 seq=26 dest=255 ttl=7
+FWD,9698056,12,origin=4 seq=28 dest=255 ttl=5
+FWD,9699070,12,origin=8 seq=28 dest=255 ttl=8
+FWD,9699838,12,origin=1 seq=28 dest=255 ttl=5
+FWD,9700663,12,origin=13 seq=27 dest=255 ttl=8
+FWD,9701365,12,origin=7 seq=29 dest=255 ttl=7
+FWD,9701690,12,origin=10 seq=28 dest=255 ttl=8
+FWD,9704274,12,origin=9 seq=29 dest=255 ttl=6
+GEN,9705910,12,seq=29 code=4 dest=255 hop=255 smoke=0 (none) ao=358 mode=analog status=sent
+FWD,9706175,12,origin=3 seq=28 dest=255 ttl=8
+FWD,9706599,12,origin=6 seq=27 dest=255 ttl=7
+GENSTOP,9710741,12,no new samples from now on (drain phase)
+STAT,9710809,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+STAT,9717267,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+STAT,9747484,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+RUNEND,9770741,12,warm-up, run and drain finished
+STAT,9770747,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+SUMMARY,9770841,12,written to node12_summary_flood_run2.txt
+STAT,9777654,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
+STAT,9786006,12,mode=FLOOD run=2 parent=255 hop=255 seq=29 tx_adv=0 tx_data_orig=29 tx_data_relay=237 tx_bad_inject=0 send_err=0 rx=728 rx_hdr_reject=0 rx_crc_fail=0 rx_inner_reject=0 rx_adv=0 rx_adv_ignored=0 rx_no_rssi=0 rx_data_overheard=0 rx_data_dup=491 rx_data_ttl0=0 gen=29 gen_noroute=0 acq_fail=0 relay_noroute=0 q_overflow=0 delivered=0
