@@ -1,0 +1,177 @@
+>>> %Run -c $EDITOR_CONTENT
+
+MPY: soft reboot
+START: id 10 mode flood node ttl 10 run 1
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 2 noroute 0 ttl 0 full 0 | dup 7 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 5 noroute 0 ttl 0 full 0 | dup 18 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 6 noroute 0 ttl 0 full 0 | dup 23 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 11 noroute 0 ttl 0 full 0 | dup 44 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 0 sent 0 noroute 0 read_fail 0 | fwd sent 14 noroute 0 ttl 0 full 0 | dup 60 invalid 0
+DATA sent: seq 0 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 1 sent 1 noroute 0 read_fail 0 | fwd sent 19 noroute 0 ttl 0 full 0 | dup 85 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 1 sent 1 noroute 0 read_fail 0 | fwd sent 22 noroute 0 ttl 0 full 0 | dup 103 invalid 0
+DATA sent: seq 1 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 2 sent 2 noroute 0 read_fail 0 | fwd sent 27 noroute 0 ttl 0 full 0 | dup 129 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 2 sent 2 noroute 0 read_fail 0 | fwd sent 30 noroute 0 ttl 0 full 0 | dup 144 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 2 sent 2 noroute 0 read_fail 0 | fwd sent 35 noroute 0 ttl 0 full 0 | dup 174 invalid 0
+DATA sent: seq 2 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 3 sent 3 noroute 0 read_fail 0 | fwd sent 38 noroute 0 ttl 0 full 0 | dup 191 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 3 sent 3 noroute 0 read_fail 0 | fwd sent 43 noroute 0 ttl 0 full 0 | dup 219 invalid 0
+DATA sent: seq 3 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 4 sent 4 noroute 0 read_fail 0 | fwd sent 45 noroute 0 ttl 0 full 0 | dup 231 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 4 sent 4 noroute 0 read_fail 0 | fwd sent 51 noroute 0 ttl 0 full 0 | dup 258 invalid 0
+DATA sent: seq 4 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 5 sent 5 noroute 0 read_fail 0 | fwd sent 53 noroute 0 ttl 0 full 0 | dup 268 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 5 sent 5 noroute 0 read_fail 0 | fwd sent 59 noroute 0 ttl 0 full 0 | dup 298 invalid 0
+DATA sent: seq 5 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 6 sent 6 noroute 0 read_fail 0 | fwd sent 60 noroute 0 ttl 0 full 0 | dup 305 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 6 sent 6 noroute 0 read_fail 0 | fwd sent 67 noroute 0 ttl 0 full 0 | dup 345 invalid 0
+DATA sent: seq 6 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 7 sent 7 noroute 0 read_fail 0 | fwd sent 68 noroute 0 ttl 0 full 0 | dup 352 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 7 sent 7 noroute 0 read_fail 0 | fwd sent 75 noroute 0 ttl 0 full 0 | dup 385 invalid 0
+DATA sent: seq 7 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 8 sent 8 noroute 0 read_fail 0 | fwd sent 76 noroute 0 ttl 0 full 0 | dup 391 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 8 sent 8 noroute 0 read_fail 0 | fwd sent 83 noroute 0 ttl 0 full 0 | dup 425 invalid 0
+DATA sent: seq 8 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 9 sent 9 noroute 0 read_fail 0 | fwd sent 84 noroute 0 ttl 0 full 0 | dup 430 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 9 sent 9 noroute 0 read_fail 0 | fwd sent 91 noroute 0 ttl 0 full 0 | dup 468 invalid 0
+DATA sent: seq 9 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 10 sent 10 noroute 0 read_fail 0 | fwd sent 92 noroute 0 ttl 0 full 0 | dup 474 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 10 sent 10 noroute 0 read_fail 0 | fwd sent 99 noroute 0 ttl 0 full 0 | dup 511 invalid 0
+DATA sent: seq 10 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 11 sent 11 noroute 0 read_fail 0 | fwd sent 100 noroute 0 ttl 0 full 0 | dup 516 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 11 sent 11 noroute 0 read_fail 0 | fwd sent 107 noroute 0 ttl 0 full 0 | dup 554 invalid 0
+DATA sent: seq 11 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 12 sent 12 noroute 0 read_fail 0 | fwd sent 108 noroute 0 ttl 0 full 0 | dup 559 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 12 sent 12 noroute 0 read_fail 0 | fwd sent 115 noroute 0 ttl 0 full 0 | dup 600 invalid 0
+DATA sent: seq 12 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 13 sent 13 noroute 0 read_fail 0 | fwd sent 115 noroute 0 ttl 0 full 0 | dup 600 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 13 sent 13 noroute 0 read_fail 0 | fwd sent 122 noroute 0 ttl 0 full 0 | dup 641 invalid 0
+DATA sent: seq 13 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 14 sent 14 noroute 0 read_fail 0 | fwd sent 122 noroute 0 ttl 0 full 0 | dup 641 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 14 sent 14 noroute 0 read_fail 0 | fwd sent 129 noroute 0 ttl 0 full 0 | dup 685 invalid 0
+DATA sent: seq 14 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 15 sent 15 noroute 0 read_fail 0 | fwd sent 130 noroute 0 ttl 0 full 0 | dup 688 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 15 sent 15 noroute 0 read_fail 0 | fwd sent 137 noroute 0 ttl 0 full 0 | dup 722 invalid 0
+DATA sent: seq 15 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 16 sent 16 noroute 0 read_fail 0 | fwd sent 138 noroute 0 ttl 0 full 0 | dup 733 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 16 sent 16 noroute 0 read_fail 0 | fwd sent 146 noroute 0 ttl 0 full 0 | dup 775 invalid 0
+DATA sent: seq 16 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 17 sent 17 noroute 0 read_fail 0 | fwd sent 146 noroute 0 ttl 0 full 0 | dup 780 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 17 sent 17 noroute 0 read_fail 0 | fwd sent 151 noroute 0 ttl 0 full 0 | dup 808 invalid 0
+DATA sent: seq 17 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 18 sent 18 noroute 0 read_fail 0 | fwd sent 154 noroute 0 ttl 0 full 0 | dup 819 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 18 sent 18 noroute 0 read_fail 0 | fwd sent 159 noroute 0 ttl 0 full 0 | dup 843 invalid 0
+DATA sent: seq 18 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 19 sent 19 noroute 0 read_fail 0 | fwd sent 161 noroute 0 ttl 0 full 0 | dup 848 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 19 sent 19 noroute 0 read_fail 0 | fwd sent 164 noroute 0 ttl 0 full 0 | dup 865 invalid 0
+DATA sent: seq 19 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 20 sent 20 noroute 0 read_fail 0 | fwd sent 168 noroute 0 ttl 0 full 0 | dup 882 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 20 sent 20 noroute 0 read_fail 0 | fwd sent 172 noroute 0 ttl 0 full 0 | dup 901 invalid 0
+DATA sent: seq 20 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 21 sent 21 noroute 0 read_fail 0 | fwd sent 176 noroute 0 ttl 0 full 0 | dup 925 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 21 sent 21 noroute 0 read_fail 0 | fwd sent 181 noroute 0 ttl 0 full 0 | dup 951 invalid 0
+DATA sent: seq 21 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 22 sent 22 noroute 0 read_fail 0 | fwd sent 184 noroute 0 ttl 0 full 0 | dup 973 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 22 sent 22 noroute 0 read_fail 0 | fwd sent 188 noroute 0 ttl 0 full 0 | dup 993 invalid 0
+DATA sent: seq 22 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 23 sent 23 noroute 0 read_fail 0 | fwd sent 192 noroute 0 ttl 0 full 0 | dup 1013 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 23 sent 23 noroute 0 read_fail 0 | fwd sent 196 noroute 0 ttl 0 full 0 | dup 1035 invalid 0
+DATA sent: seq 23 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 24 sent 24 noroute 0 read_fail 0 | fwd sent 200 noroute 0 ttl 0 full 0 | dup 1054 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 24 sent 24 noroute 0 read_fail 0 | fwd sent 204 noroute 0 ttl 0 full 0 | dup 1072 invalid 0
+DATA sent: seq 24 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 25 sent 25 noroute 0 read_fail 0 | fwd sent 208 noroute 0 ttl 0 full 0 | dup 1091 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 25 sent 25 noroute 0 read_fail 0 | fwd sent 212 noroute 0 ttl 0 full 0 | dup 1111 invalid 0
+DATA sent: seq 25 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 26 sent 26 noroute 0 read_fail 0 | fwd sent 216 noroute 0 ttl 0 full 0 | dup 1132 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 26 sent 26 noroute 0 read_fail 0 | fwd sent 220 noroute 0 ttl 0 full 0 | dup 1149 invalid 0
+DATA sent: seq 26 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 27 sent 27 noroute 0 read_fail 0 | fwd sent 224 noroute 0 ttl 0 full 0 | dup 1174 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 27 sent 27 noroute 0 read_fail 0 | fwd sent 226 noroute 0 ttl 0 full 0 | dup 1183 invalid 0
+DATA sent: seq 27 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 28 sent 28 noroute 0 read_fail 0 | fwd sent 226 noroute 0 ttl 0 full 0 | dup 1183 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 28 sent 28 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+DATA sent: seq 28 to all (flood)
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+GENERATION STOPPED: drain, only forwarding now
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+--- device 10 flood hop 255 parent 255 | adv sent 0 rx 0 dropped 0 ---
+ DATA gen 29 sent 29 noroute 0 read_fail 0 | fwd sent 228 noroute 0 ttl 0 full 0 | dup 1194 invalid 0
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+MicroPython v1.29.0 on 2026-08-24; Generic ESP32 module with ESP32
+Type "help()" for more information.
+
+MPY: soft reboot
+MicroPython v1.29.0 on 2026-08-24; Generic ESP32 module with ESP32
+Type "help()" for more information.
+>>> 
