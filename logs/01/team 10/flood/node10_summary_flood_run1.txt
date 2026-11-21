@@ -1,0 +1,28 @@
+# iot-log format 1
+# console logs converted to the format by hand; counters = last status block before RUN FINISHED
+format=1
+device=node
+device_id=10
+sensor=DS18B20
+mode=flood
+run_id=1
+warmup_s=60
+run_s=300
+drain_s=60
+adv_interval_s=5
+data_interval_s=10
+# tx power as reported by the board owner (17.5 dBm on this day); read-back was not logged
+tx_power_dbm=17.5
+generated=29
+acq_fail=0
+drop_noroute=0
+data_tx_own=29
+data_tx_relay=241
+adv_tx=0
+adv_rx=0
+drop_rx=0
+drop_dup=706
+drop_invalid=0
+fwd_noroute=0
+fwd_ttl=0
+fwd_full=0
